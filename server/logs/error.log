@@ -1,0 +1,587 @@
+2026-08-19T09:40:41.400Z [error]: Product not found
+2026-08-19T09:45:05.973Z [error]: Product not found
+2026-08-20T07:33:57.459Z [error]: 
+Invalid `prisma.product.findUnique()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:44:40
+
+  41 }
+  42 
+  43 export async function getProductById(id: number) {
+→ 44   const product = await prisma.product.findUnique({
+         where: {
+           deleted_at: null,
+       +   id: Int
+         },
+         include: {
+           category: true
+         }
+       })
+
+Argument `id` is missing.
+2026-08-20T07:35:02.991Z [error]: 
+Invalid `prisma.product.findUnique()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:44:40
+
+  41 }
+  42 
+  43 export async function getProductById(id: number) {
+→ 44   const product = await prisma.product.findUnique({
+         where: {
+           deleted_at: null,
+       +   id: Int
+         },
+         include: {
+           category: true
+         }
+       })
+
+Argument `id` is missing.
+2026-08-20T09:38:54.010Z [error]: Category not found
+2026-08-20T09:39:07.801Z [error]: Product with this slug already exists
+2026-08-20T09:44:11.640Z [error]: Product not found
+2026-08-20T11:07:16.554Z [error]: SKU already exists
+2026-08-20T17:52:02.576Z [error]: Invalid email or password
+2026-08-20T17:54:04.362Z [error]: Category not found
+2026-08-20T17:55:35.789Z [error]: Product not found
+2026-08-20T17:56:27.558Z [error]: Product not found
+2026-08-20T17:56:52.055Z [error]: Product not found
+2026-08-20T17:56:54.341Z [error]: Product not found
+2026-08-20T17:57:16.066Z [error]: Product not found
+2026-08-20T18:24:05.544Z [error]: Color not found
+2026-08-20T18:24:28.698Z [error]: A variant with this color and size already exists for this product
+2026-08-20T18:26:36.096Z [error]: Color not found
+2026-08-20T18:26:51.407Z [error]: A variant with this color and size already exists for this product
+2026-08-20T18:27:10.854Z [error]: Product variant not found
+2026-08-21T07:49:55.378Z [error]: A variant with this color and size already exists for this product
+2026-08-22T17:47:25.176Z [error]: Invalid email or password
+2026-08-22T17:50:22.815Z [error]: Email is already registered
+2026-08-23T08:23:02.687Z [error]: Product not found
+2026-08-23T08:50:51.547Z [error]: 
+Invalid `prisma.product.findMany()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:5:25
+
+  2 import prisma from "../lib/prisma.js";
+  3 
+  4 export async function getProducts() {
+→ 5   return prisma.product.findMany({
+        where: {
+          deleted_at: null
+        },
+        include: {
+          category: true,
+          images: {
+          ~~~~~~
+            orderBy: {
+              position: "asc"
+            }
+          },
+          variants: {
+            include: {
+              color: true,
+              size: true
+            }
+          }
+        }
+      })
+
+Unknown field `images` for include statement on model `Product`. Available options are marked with ?.
+2026-08-23T08:59:11.147Z [error]: 
+Invalid `prisma.product.findMany()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:9:25
+
+  6 // --------------------------------------------------
+  7 
+  8 export async function getProducts() {
+→ 9   return prisma.product.findMany({
+        where: {
+          deleted_at: null
+        },
+        include: {
+          category: true,
+          images: true,
+          ~~~~~~
+          variants: {
+            include: {
+              color: true,
+              size: true,
+              images: true
+            }
+          }
+        }
+      })
+
+Unknown field `images` for include statement on model `Product`. Available options are marked with ?.
+2026-08-23T09:01:29.106Z [error]: 
+Invalid `prisma.product.findMany()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:9:25
+
+  6 // --------------------------------------------------
+  7 
+  8 export async function getProducts() {
+→ 9   return prisma.product.findMany({
+        where: {
+          deleted_at: null
+        },
+        include: {
+          category: true,
+          images: true,
+          ~~~~~~
+          variants: {
+            include: {
+              color: true,
+              size: true,
+              images: true
+            }
+          }
+        }
+      })
+
+Unknown field `images` for include statement on model `Product`. Available options are marked with ?.
+2026-08-23T09:03:15.477Z [error]: 
+Invalid `prisma.product.findMany()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:9:25
+
+  6 // --------------------------------------------------
+  7 
+  8 export async function getProducts() {
+→ 9   return prisma.product.findMany({
+        where: {
+          deleted_at: null
+        },
+        include: {
+          category: true,
+          images: true,
+          ~~~~~~
+          variants: {
+            include: {
+              color: true,
+              size: true,
+              images: true
+            }
+          }
+        }
+      })
+
+Unknown field `images` for include statement on model `Product`. Available options are marked with ?.
+2026-08-23T09:03:54.181Z [error]: 
+Invalid `prisma.product.findMany()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:9:31
+
+  6 // --------------------------------------------------
+  7 
+  8 export async function getProducts() {
+→ 9   return await prisma.product.findMany({
+        where: {
+          deleted_at: null
+        },
+        include: {
+          category: true,
+          images: true,
+          ~~~~~~
+          variants: {
+            include: {
+              color: true,
+              size: true,
+              images: true
+            }
+          }
+        }
+      })
+
+Unknown field `images` for include statement on model `Product`. Available options are marked with ?.
+2026-08-23T09:04:36.732Z [error]: 
+Invalid `prisma.product.findMany()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:9:25
+
+  6 // --------------------------------------------------
+  7 
+  8 export async function getProducts() {
+→ 9   return prisma.product.findMany({
+        where: {
+          deleted_at: null
+        },
+        include: {
+          category: true,
+          images: true,
+          ~~~~~~
+          variants: {
+            include: {
+              color: true,
+              size: true,
+              images: true
+            }
+          }
+        }
+      })
+
+Unknown field `images` for include statement on model `Product`. Available options are marked with ?.
+2026-08-23T09:48:37.065Z [error]: 
+Invalid `prisma.product.findUnique()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:82:40
+
+  79 }
+  80 
+  81 export async function getProductById(id: number) {
+→ 82   const product = await prisma.product.findUnique({
+         where: {
+       +   id: Int
+         },
+         include: {
+           category: true,
+           variants: {
+             include: {
+               color: true,
+               size: true
+             }
+           }
+         }
+       })
+
+Argument `id` is missing.
+2026-08-23T18:46:05.815Z [error]: Invalid email or password
+2026-08-23T18:46:18.908Z [error]: Invalid email or password
+2026-08-23T18:47:30.337Z [error]: 
+Invalid `prisma.product.findUnique()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:82:40
+
+  79 }
+  80 
+  81 export async function getProductById(id: number) {
+→ 82   const product = await prisma.product.findUnique({
+         where: {
+       +   id: Int
+         },
+         include: {
+           category: true,
+           variants: {
+             include: {
+               color: true,
+               size: true
+             }
+           }
+         }
+       })
+
+Argument `id` is missing.
+2026-08-23T18:49:10.528Z [error]: 
+Invalid `prisma.product.findUnique()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:82:40
+
+  79 }
+  80 
+  81 export async function getProductById(id: number) {
+→ 82   const product = await prisma.product.findUnique({
+         where: {
+       +   id: Int
+         },
+         include: {
+           category: true,
+           variants: {
+             include: {
+               color: true,
+               size: true
+             }
+           }
+         }
+       })
+
+Argument `id` is missing.
+2026-08-24T16:43:10.668Z [error]: Invalid email or password
+2026-08-25T17:43:16.540Z [error]: 
+Invalid `prisma.image.findMany()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:22:37
+
+  19 
+  20 const productIds = products.map((product) => product.id);
+  21 
+→ 22 const images = await prisma.image.findMany({
+       where: {
+         entity_type: "PRODUCT",
+         ~~~~~~~~~~~
+         entity_id: {
+           in: [
+             5,
+             6,
+             7,
+             8
+           ]
+         },
+     ?   AND?: ImageWhereInput | ImageWhereInput[],
+     ?   OR?: ImageWhereInput[],
+     ?   NOT?: ImageWhereInput | ImageWhereInput[],
+     ?   id?: IntFilter | Int,
+     ?   url?: StringFilter | String,
+     ?   alt_text?: StringNullableFilter | String | Null,
+     ?   position?: IntFilter | Int,
+     ?   product_id?: IntNullableFilter | Int | Null,
+     ?   variant_id?: IntNullableFilter | Int | Null,
+     ?   created_at?: DateTimeFilter | DateTime,
+     ?   product?: ProductNullableScalarRelationFilter | ProductWhereInput | Null,
+     ?   variant?: ProductVariantNullableScalarRelationFilter | ProductVariantWhereInput | Null
+       },
+       orderBy: {
+         position: "asc"
+       }
+     })
+
+Unknown argument `entity_type`. Available options are marked with ?.
+2026-08-25T17:43:16.918Z [error]: 
+Invalid `prisma.image.findMany()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:22:37
+
+  19 
+  20 const productIds = products.map((product) => product.id);
+  21 
+→ 22 const images = await prisma.image.findMany({
+       where: {
+         entity_type: "PRODUCT",
+         ~~~~~~~~~~~
+         entity_id: {
+           in: [
+             5,
+             6,
+             7,
+             8
+           ]
+         },
+     ?   AND?: ImageWhereInput | ImageWhereInput[],
+     ?   OR?: ImageWhereInput[],
+     ?   NOT?: ImageWhereInput | ImageWhereInput[],
+     ?   id?: IntFilter | Int,
+     ?   url?: StringFilter | String,
+     ?   alt_text?: StringNullableFilter | String | Null,
+     ?   position?: IntFilter | Int,
+     ?   product_id?: IntNullableFilter | Int | Null,
+     ?   variant_id?: IntNullableFilter | Int | Null,
+     ?   created_at?: DateTimeFilter | DateTime,
+     ?   product?: ProductNullableScalarRelationFilter | ProductWhereInput | Null,
+     ?   variant?: ProductVariantNullableScalarRelationFilter | ProductVariantWhereInput | Null
+       },
+       orderBy: {
+         position: "asc"
+       }
+     })
+
+Unknown argument `entity_type`. Available options are marked with ?.
+2026-08-25T19:24:05.786Z [error]: Category not found
+2026-08-25T19:25:37.013Z [error]: Category not found
+2026-08-25T19:31:53.498Z [error]: 
+Invalid `tx.product.create()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:66:41
+
+  63 
+  64 // 3. Create everything in one transaction
+  65 const product = await prisma.$transaction(async (tx) => {
+→ 66   const newProduct = await tx.product.create(
+Foreign key constraint violated on the constraint: `ProductVariant_color_id_fkey`
+2026-08-26T08:50:36.424Z [error]: Invalid email or password
+2026-08-26T11:45:30.221Z [error]: Invalid email or password
+2026-08-27T07:39:07.517Z [error]: 
+Invalid `tx.product.create()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:62:41
+
+  59 
+  60 // 3. Create everything in one transaction
+  61 const product = await prisma.$transaction(async (tx) => {
+→ 62   const newProduct = await tx.product.create(
+Unique constraint failed on the fields: (`sku`)
+2026-08-27T08:36:59.217Z [error]: 
+Invalid `tx.product.create()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:65:41
+
+  62 
+  63 // 3. Create everything in one transaction
+  64 const product = await prisma.$transaction(async (tx) => {
+→ 65   const newProduct = await tx.product.create(
+Unique constraint failed on the fields: (`sku`)
+2026-08-27T08:37:28.816Z [error]: 
+Invalid `tx.product.create()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:65:41
+
+  62 
+  63 // 3. Create everything in one transaction
+  64 const product = await prisma.$transaction(async (tx) => {
+→ 65   const newProduct = await tx.product.create(
+Unique constraint failed on the fields: (`sku`)
+2026-08-29T17:37:43.537Z [error]: Maximum call stack size exceeded
+2026-08-29T17:37:43.773Z [error]: Maximum call stack size exceeded
+2026-08-29T17:38:42.532Z [error]: Maximum call stack size exceeded
+2026-08-29T17:38:42.834Z [error]: Maximum call stack size exceeded
+2026-08-29T17:39:31.575Z [error]: Maximum call stack size exceeded
+2026-08-29T17:39:32.092Z [error]: Maximum call stack size exceeded
+2026-08-29T17:48:58.228Z [error]: Category not found
+2026-08-29T17:53:27.220Z [error]: Category not found
+2026-08-29T17:54:10.345Z [error]: Category not found
+2026-08-29T17:56:27.492Z [error]: Category not found
+2026-09-01T17:41:44.218Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-09-01T17:41:44.253Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-09-01T17:44:17.468Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-09-01T17:44:17.494Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.

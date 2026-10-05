@@ -1,0 +1,164 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum OrderStatus {
+  PENDING
+  CONFIRMED
+  SHIPPED
+  DELIVERED
+  CANCELLED
+}
+
+model User {
+  id         Int       @id @default(autoincrement())
+  first_name String
+  last_name  String
+  email      String    @unique
+  password   String
+  role       String    @default("USER")
+  deleted_at DateTime?
+  created_at DateTime  @default(now())
+  updated_at DateTime  @updatedAt
+
+  orders Order[]
+}
+
+model Category {
+  id         Int       @id @default(autoincrement())
+  name       String    @unique
+  deleted_at DateTime?
+
+  products Product[]
+}
+
+model Product {
+  id          Int     @id @default(autoincrement())
+  name        String
+  slug        String  @unique
+  description String?
+
+  category_id Int
+  deleted_at  DateTime?
+  created_at  DateTime  @default(now())
+  updated_at  DateTime  @updatedAt
+
+  category Category         @relation(fields: [category_id], references: [id])
+  variants ProductVariant[]
+  images   Image[]
+
+  order_items OrderItem[]
+
+  @@index([category_id])
+}
+
+model ProductVariant {
+  id         Int  @id @default(autoincrement())
+  product_id Int
+  color_id   Int?
+  size_id    Int?
+
+  sku   String  @unique
+  price Decimal @db.Decimal(10, 2)
+  stock Int     @default(0)
+
+  order_items OrderItem[]
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  product Product @relation(fields: [product_id], references: [id], onDelete: Cascade)
+
+  color Color? @relation(fields: [color_id], references: [id])
+  size  Size?  @relation(fields: [size_id], references: [id])
+
+  images Image[]
+
+  @@unique([product_id, color_id, size_id])
+  @@index([product_id])
+  @@index([color_id])
+  @@index([size_id])
+}
+
+model Color {
+  id   Int    @id @default(autoincrement())
+  name String @unique
+
+  variants ProductVariant[]
+}
+
+model Size {
+  id   Int    @id @default(autoincrement())
+  name String @unique
+
+  variants ProductVariant[]
+}
+
+model Image {
+  id       Int     @id @default(autoincrement())
+  url      String
+  alt_text String?
+  position Int     @default(0)
+
+  product_id Int?
+  variant_id Int?
+
+  created_at DateTime @default(now())
+
+  product Product? @relation(fields: [product_id], references: [id], onDelete: Cascade)
+
+  variant ProductVariant? @relation(fields: [variant_id], references: [id], onDelete: Cascade)
+
+  @@index([product_id])
+  @@index([variant_id])
+}
+
+model Order {
+  id      Int         @id @default(autoincrement())
+  user_id Int
+  total   Decimal     @db.Decimal(10, 2)
+  status  OrderStatus @default(PENDING)
+
+  deleted_at DateTime?
+  created_at DateTime  @default(now())
+  updated_at DateTime  @updatedAt
+
+  // Relations
+  user  User        @relation(fields: [user_id], references: [id])
+  items OrderItem[]
+
+  @@index([user_id])
+  @@index([status])
+}
+
+model OrderItem {
+  id Int @id @default(autoincrement())
+
+  order_id   Int
+  product_id Int
+  variant_id Int?
+
+  quantity   Int
+  unit_price Decimal @db.Decimal(10, 2)
+  subtotal   Decimal @db.Decimal(10, 2)
+
+  // Product information at the time of purchase
+  product_name String
+  variant_name String?
+
+  created_at DateTime @default(now())
+
+  // Relations
+  order   Order           @relation(fields: [order_id], references: [id], onDelete: Cascade)
+  product Product         @relation(fields: [product_id], references: [id])
+  variant ProductVariant? @relation(fields: [variant_id], references: [id])
+
+  @@index([order_id])
+  @@index([product_id])
+  @@index([variant_id])
+}
