@@ -12,13 +12,7 @@ const variantSchema = z.object({
 
   sku: z.string().min(1).trim(),
 
-  price: z
-    .string()
-    .min(1)
-    .refine(
-      (value) => !Number.isNaN(Number(value)),
-      "Price must be a valid number",
-    ),
+  price: z.number().positive("Price must be greater than 0"),
 
   stock: z.number().int().min(0),
 

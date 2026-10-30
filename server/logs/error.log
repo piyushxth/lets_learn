@@ -585,3 +585,1687 @@ C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.
         })
 
 Argument `id` is missing.
+2026-10-05T08:17:04.641Z [error]: Invalid email or password
+2026-10-08T18:54:08.333Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T18:54:08.339Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T18:54:08.350Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T18:54:08.360Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T19:00:58.728Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T19:00:59.590Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T19:01:00.496Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T19:01:00.517Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T19:01:00.524Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T19:01:00.544Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T19:01:00.843Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T19:01:01.085Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:24:05.800Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:24:06.245Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:24:06.960Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:24:07.012Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:24:07.568Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:24:07.598Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:24:08.528Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:24:08.595Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:10.846Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:10.852Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:11.106Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:11.158Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:11.432Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:11.444Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:11.733Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:11.862Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:15.045Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:15.124Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:15.584Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:15.631Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:15.918Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:15.923Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:16.199Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:16.257Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T15:28:15.659Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T16:05:05.896Z [error]: User not found
+2026-10-09T16:05:05.913Z [error]: User not found
+2026-10-09T16:05:05.924Z [error]: User not found
+2026-10-09T16:05:05.931Z [error]: User not found
+2026-10-09T16:05:06.432Z [error]: User not found
+2026-10-09T16:05:06.439Z [error]: User not found
+2026-10-25T15:30:12.779Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-25T15:34:13.609Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.

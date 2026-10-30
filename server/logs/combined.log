@@ -3012,3 +3012,3238 @@ Argument `id` is missing.
 2026-10-05T07:36:40.353Z [info]: Server running on http://localhost:5000
 2026-10-05T07:37:12.632Z [info]: GET /api/product 200 - 2139ms
 2026-10-05T07:38:18.692Z [info]: GET /api/product 200 - 235ms
+2026-10-05T07:47:44.760Z [info]: Server running on http://localhost:5000
+2026-10-05T08:13:23.388Z [info]: GET /api/product 200 - 2339ms
+2026-10-05T08:14:00.218Z [info]: Server running on http://localhost:5000
+2026-10-05T08:14:13.445Z [info]: GET /api/product 200 - 410ms
+2026-10-05T08:14:13.454Z [info]: GET /api/product 200 - 1318ms
+2026-10-05T08:16:45.730Z [info]: GET /api/auth/me 401 - 2ms
+2026-10-05T08:16:45.745Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-05T08:16:45.757Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-05T08:16:45.772Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-05T08:16:46.070Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-05T08:16:46.083Z [info]: GET /api/auth/me 401 - 2ms
+2026-10-05T08:17:04.641Z [error]: Invalid email or password
+2026-10-05T08:17:04.643Z [info]: POST /api/auth/login 401 - 353ms
+2026-10-05T08:17:49.790Z [info]: POST /api/auth/login 200 - 191ms
+2026-10-05T08:17:50.105Z [info]: GET /api/auth/me 200 - 13ms
+2026-10-05T08:17:50.110Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-05T08:17:50.119Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-05T08:17:50.123Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:18:13.510Z [info]: GET /api/auth/me 304 - 7ms
+2026-10-05T08:18:13.535Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:18:13.619Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:18:13.639Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:18:13.916Z [info]: GET /api/product 200 - 844ms
+2026-10-05T08:18:23.502Z [info]: GET /api/category 200 - 7ms
+2026-10-05T08:18:24.054Z [info]: GET /api/auth/me 304 - 7ms
+2026-10-05T08:18:24.059Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:18:24.075Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:18:24.087Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:18:31.173Z [info]: GET /api/product 200 - 343ms
+2026-10-05T08:18:31.187Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-05T08:18:31.193Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:18:31.209Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:18:31.219Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:18:34.322Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-05T08:18:34.330Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-05T08:18:34.338Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:18:34.347Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:18:34.543Z [info]: GET /api/category 200 - 6ms
+2026-10-05T08:18:34.549Z [info]: GET /api/size 200 - 9ms
+2026-10-05T08:18:34.551Z [info]: GET /api/color 200 - 13ms
+2026-10-05T08:18:34.579Z [info]: GET /api/category 304 - 7ms
+2026-10-05T08:18:34.585Z [info]: GET /api/color 304 - 12ms
+2026-10-05T08:18:34.586Z [info]: GET /api/size 304 - 11ms
+2026-10-05T08:19:37.573Z [info]: POST /api/product 201 - 310ms
+2026-10-05T08:19:45.400Z [info]: GET /api/product 200 - 454ms
+2026-10-05T08:19:45.472Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-05T08:19:45.487Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:19:45.551Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:19:45.580Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:19:53.050Z [info]: GET /api/category 200 - 6ms
+2026-10-05T08:19:53.605Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:19:53.613Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-05T08:19:53.619Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:19:53.629Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:19:58.205Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:19:58.220Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:19:58.231Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:19:58.240Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:20:04.113Z [info]: POST /api/category 201 - 19ms
+2026-10-05T08:20:07.424Z [info]: GET /api/product 200 - 332ms
+2026-10-05T08:20:07.479Z [info]: GET /api/auth/me 304 - 9ms
+2026-10-05T08:20:07.503Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:20:07.548Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:20:07.571Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:20:10.276Z [info]: GET /api/category 200 - 6ms
+2026-10-05T08:20:10.698Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:20:10.704Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:20:10.713Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:20:10.719Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-05T08:25:24.664Z [info]: GET /api/product 200 - 243ms
+2026-10-05T08:25:30.681Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-05T08:25:30.685Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-05T08:25:30.688Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-05T08:25:30.690Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-05T08:25:30.837Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-05T08:25:30.840Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-05T08:25:39.887Z [info]: POST /api/auth/login 200 - 182ms
+2026-10-05T08:25:40.071Z [info]: GET /api/auth/me 200 - 3ms
+2026-10-05T08:25:40.079Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:25:40.083Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:25:40.086Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:29:08.818Z [info]: GET /api/category 200 - 322ms
+2026-10-05T08:29:09.812Z [info]: GET /api/auth/me 304 - 7ms
+2026-10-05T08:29:09.824Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:29:09.832Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:29:09.841Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:29:24.379Z [info]: GET /api/auth/me 304 - 120ms
+2026-10-05T08:29:24.385Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-05T08:29:24.389Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:29:24.393Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:29:30.030Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-05T08:29:30.045Z [info]: GET /api/product 200 - 417ms
+2026-10-05T08:29:30.054Z [info]: GET /api/auth/me 304 - 7ms
+2026-10-05T08:29:30.059Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:29:30.071Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:31:09.237Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-05T08:31:09.245Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:31:09.415Z [info]: GET /api/auth/me 304 - 164ms
+2026-10-05T08:31:09.465Z [info]: GET /api/product 200 - 634ms
+2026-10-05T08:31:09.479Z [info]: GET /api/auth/me 304 - 9ms
+2026-10-05T08:31:11.920Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:31:11.925Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:31:11.933Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:31:11.942Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:31:16.226Z [info]: GET /api/product 200 - 27ms
+2026-10-05T08:31:16.535Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:31:16.540Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:31:16.551Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-05T08:31:16.585Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:34:02.725Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:34:02.732Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:34:02.774Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:34:02.818Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:34:03.008Z [info]: GET /api/orders 200 - 848ms
+2026-10-05T08:34:17.549Z [info]: GET /api/product 200 - 242ms
+2026-10-05T08:34:21.736Z [info]: GET /api/product/1 200 - 29ms
+2026-10-05T08:40:28.173Z [info]: GET /api/product 200 - 485ms
+2026-10-05T08:40:28.373Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-05T08:40:28.497Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:40:28.525Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:40:28.566Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:40:58.018Z [info]: GET /api/product/1 200 - 197ms
+2026-10-05T08:40:58.045Z [info]: GET /api/category 200 - 2ms
+2026-10-05T08:40:58.051Z [info]: GET /api/size 304 - 3ms
+2026-10-05T08:40:58.057Z [info]: GET /api/color 304 - 10ms
+2026-10-05T08:40:58.066Z [info]: GET /api/category 304 - 17ms
+2026-10-05T08:40:58.070Z [info]: GET /api/size 304 - 14ms
+2026-10-05T08:40:58.081Z [info]: GET /api/color 304 - 5ms
+2026-10-05T08:40:58.133Z [info]: GET /api/product/1 304 - 113ms
+2026-10-05T08:41:11.564Z [info]: GET /api/auth/me 304 - 7ms
+2026-10-05T08:41:11.634Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:41:11.677Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:41:11.747Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-05T08:41:11.839Z [info]: GET /api/product 200 - 980ms
+2026-10-05T08:41:15.800Z [info]: GET /api/auth/me 304 - 7ms
+2026-10-05T08:41:15.806Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:41:15.812Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:41:15.833Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:41:15.952Z [info]: GET /api/category 304 - 6ms
+2026-10-05T08:41:15.955Z [info]: GET /api/color 304 - 7ms
+2026-10-05T08:41:15.961Z [info]: GET /api/size 304 - 4ms
+2026-10-05T08:41:15.987Z [info]: GET /api/color 304 - 5ms
+2026-10-05T08:41:15.992Z [info]: GET /api/size 304 - 7ms
+2026-10-05T08:41:16.000Z [info]: GET /api/category 304 - 19ms
+2026-10-05T08:41:19.674Z [info]: GET /api/product 200 - 21ms
+2026-10-05T08:41:20.031Z [info]: GET /api/auth/me 304 - 7ms
+2026-10-05T08:41:20.056Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:41:20.060Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:41:20.139Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:42:06.295Z [info]: GET /api/product/1 200 - 359ms
+2026-10-05T08:42:39.227Z [info]: GET /api/product/1 200 - 436ms
+2026-10-05T08:43:19.924Z [info]: GET /api/product/1 200 - 227ms
+2026-10-05T08:44:45.403Z [info]: GET /api/product/1 200 - 429ms
+2026-10-05T08:44:52.768Z [info]: GET /api/product 200 - 256ms
+2026-10-05T08:44:52.885Z [info]: GET /api/product/1 200 - 21ms
+2026-10-05T08:44:53.304Z [info]: GET /api/product 200 - 12ms
+2026-10-05T08:44:54.143Z [info]: GET /api/auth/me 304 - 7ms
+2026-10-05T08:44:54.154Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:44:54.180Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:44:54.195Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:44:57.746Z [info]: GET /api/category 304 - 5ms
+2026-10-05T08:44:57.747Z [info]: GET /api/size 304 - 2ms
+2026-10-05T08:44:57.748Z [info]: GET /api/color 304 - 6ms
+2026-10-05T08:44:57.756Z [info]: GET /api/category 304 - 5ms
+2026-10-05T08:44:57.757Z [info]: GET /api/size 304 - 5ms
+2026-10-05T08:44:57.760Z [info]: GET /api/color 304 - 6ms
+2026-10-05T08:46:54.030Z [info]: GET /api/auth/me 304 - 158ms
+2026-10-05T08:46:54.034Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:46:54.043Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:46:54.051Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:46:54.214Z [info]: GET /api/category 304 - 6ms
+2026-10-05T08:46:54.222Z [info]: GET /api/size 304 - 5ms
+2026-10-05T08:46:54.243Z [info]: GET /api/category 304 - 2ms
+2026-10-05T08:46:54.348Z [info]: GET /api/size 304 - 106ms
+2026-10-05T08:46:54.380Z [info]: GET /api/color 304 - 168ms
+2026-10-05T08:46:54.384Z [info]: GET /api/color 304 - 3ms
+2026-10-05T08:52:51.939Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-05T08:52:51.949Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:52:51.962Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:52:51.985Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:52:52.022Z [info]: GET /api/product 200 - 876ms
+2026-10-05T08:52:57.924Z [info]: GET /api/product/1 304 - 35ms
+2026-10-05T08:52:57.953Z [info]: GET /api/product/1 304 - 26ms
+2026-10-05T08:52:57.961Z [info]: GET /api/category 304 - 3ms
+2026-10-05T08:52:57.971Z [info]: GET /api/color 304 - 12ms
+2026-10-05T08:52:57.975Z [info]: GET /api/size 304 - 15ms
+2026-10-05T08:52:57.982Z [info]: GET /api/category 304 - 3ms
+2026-10-05T08:52:57.990Z [info]: GET /api/color 304 - 10ms
+2026-10-05T08:52:57.993Z [info]: GET /api/size 304 - 12ms
+2026-10-05T08:54:20.231Z [info]: GET /api/product/1 304 - 195ms
+2026-10-05T08:54:20.267Z [info]: GET /api/category 304 - 2ms
+2026-10-05T08:54:20.274Z [info]: GET /api/size 304 - 3ms
+2026-10-05T08:54:20.287Z [info]: GET /api/category 304 - 3ms
+2026-10-05T08:54:20.293Z [info]: GET /api/color 304 - 21ms
+2026-10-05T08:54:20.302Z [info]: GET /api/product/1 304 - 70ms
+2026-10-05T08:54:20.311Z [info]: GET /api/color 304 - 2ms
+2026-10-05T08:54:20.403Z [info]: GET /api/size 304 - 118ms
+2026-10-05T08:54:49.879Z [info]: GET /api/product/1 200 - 247ms
+2026-10-05T08:57:41.516Z [info]: GET /api/product/1 200 - 790ms
+2026-10-05T08:57:46.004Z [info]: GET /api/auth/me 304 - 7ms
+2026-10-05T08:57:46.092Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T08:57:46.196Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:57:46.495Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:57:47.132Z [info]: GET /api/product/1 304 - 649ms
+2026-10-05T08:57:47.399Z [info]: GET /api/category 304 - 5ms
+2026-10-05T08:57:47.456Z [info]: GET /api/color 304 - 3ms
+2026-10-05T08:57:47.480Z [info]: GET /api/size 304 - 25ms
+2026-10-05T08:57:47.483Z [info]: GET /api/category 304 - 3ms
+2026-10-05T08:57:47.497Z [info]: GET /api/size 304 - 2ms
+2026-10-05T08:57:47.588Z [info]: GET /api/color 304 - 94ms
+2026-10-05T08:57:47.642Z [info]: GET /api/product/1 304 - 359ms
+2026-10-05T08:57:52.796Z [info]: PATCH /api/product/1 200 - 146ms
+2026-10-05T08:57:58.928Z [info]: GET /api/auth/me 304 - 10ms
+2026-10-05T08:57:58.933Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:57:58.938Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:57:58.942Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T08:57:59.209Z [info]: GET /api/category 304 - 2ms
+2026-10-05T08:57:59.263Z [info]: GET /api/color 304 - 2ms
+2026-10-05T08:57:59.269Z [info]: GET /api/size 304 - 7ms
+2026-10-05T08:57:59.382Z [info]: GET /api/color 304 - 4ms
+2026-10-05T08:57:59.389Z [info]: GET /api/category 304 - 14ms
+2026-10-05T08:57:59.483Z [info]: GET /api/size 304 - 104ms
+2026-10-05T09:00:29.900Z [info]: GET /api/product/1 200 - 590ms
+2026-10-05T09:01:40.431Z [info]: GET /api/product/1 200 - 250ms
+2026-10-05T10:04:59.751Z [info]: GET /api/product/1 200 - 607ms
+2026-10-05T10:05:03.851Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-05T10:05:04.013Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-05T10:05:04.343Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-05T10:05:04.560Z [info]: GET /api/auth/me 401 - 3ms
+2026-10-05T10:05:05.735Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-05T10:05:05.960Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-05T10:05:13.621Z [info]: POST /api/auth/login 200 - 200ms
+2026-10-05T10:05:14.038Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T10:05:14.044Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T10:05:14.061Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T10:05:14.074Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T10:05:17.185Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-05T10:05:17.276Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T10:05:17.390Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T10:05:17.692Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T10:05:22.117Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T10:05:22.181Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T10:05:22.260Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T10:05:22.391Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T10:05:22.491Z [info]: GET /api/category 304 - 6ms
+2026-10-05T10:05:22.548Z [info]: GET /api/size 304 - 5ms
+2026-10-05T10:05:22.612Z [info]: GET /api/category 304 - 1ms
+2026-10-05T10:05:22.696Z [info]: GET /api/size 304 - 2ms
+2026-10-05T10:05:23.089Z [info]: GET /api/color 304 - 603ms
+2026-10-05T10:05:23.107Z [info]: GET /api/color 304 - 1ms
+2026-10-05T10:11:07.058Z [info]: GET /api/auth/me 304 - 488ms
+2026-10-05T10:11:07.076Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T10:11:07.105Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T10:11:07.203Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T10:11:07.718Z [info]: GET /api/category 304 - 6ms
+2026-10-05T10:11:07.935Z [info]: GET /api/category 304 - 3ms
+2026-10-05T10:11:08.448Z [info]: GET /api/size 304 - 732ms
+2026-10-05T10:11:08.477Z [info]: GET /api/size 304 - 2ms
+2026-10-05T10:11:08.506Z [info]: GET /api/color 304 - 791ms
+2026-10-05T10:11:08.530Z [info]: GET /api/color 304 - 1ms
+2026-10-05T10:12:28.896Z [info]: GET /api/product/1 200 - 361ms
+2026-10-05T10:12:36.601Z [info]: GET /api/auth/me 304 - 7ms
+2026-10-05T10:12:36.659Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-05T10:12:36.692Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T10:12:36.780Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-05T10:12:37.241Z [info]: GET /api/category 304 - 16ms
+2026-10-05T10:12:37.571Z [info]: GET /api/color 304 - 334ms
+2026-10-05T10:12:37.740Z [info]: GET /api/size 304 - 502ms
+2026-10-05T10:12:37.875Z [info]: GET /api/color 304 - 25ms
+2026-10-05T10:12:37.914Z [info]: GET /api/category 304 - 72ms
+2026-10-05T10:12:37.940Z [info]: GET /api/size 304 - 89ms
+2026-10-05T10:13:04.844Z [info]: GET /api/product/1 200 - 212ms
+2026-10-05T10:13:18.985Z [info]: GET /api/auth/me 304 - 631ms
+2026-10-05T10:13:19.239Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T10:13:19.525Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-05T10:13:19.606Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-05T10:13:19.645Z [info]: GET /api/color 304 - 6ms
+2026-10-05T10:13:19.836Z [info]: GET /api/color 304 - 2ms
+2026-10-05T10:13:20.217Z [info]: GET /api/size 304 - 577ms
+2026-10-05T10:13:20.227Z [info]: GET /api/category 304 - 623ms
+2026-10-05T10:13:20.251Z [info]: GET /api/size 304 - 8ms
+2026-10-05T10:13:20.265Z [info]: GET /api/category 304 - 3ms
+2026-10-06T06:02:56.439Z [info]: GET /api/product/1 200 - 215ms
+2026-10-06T06:03:11.151Z [info]: GET /api/product 200 - 257ms
+2026-10-06T06:03:11.282Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-06T06:03:11.284Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-06T06:03:11.286Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-06T06:03:11.288Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-06T06:03:11.650Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-06T06:03:11.667Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-06T06:03:17.404Z [info]: POST /api/auth/login 200 - 72ms
+2026-10-06T06:03:17.562Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:03:17.577Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:03:17.582Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:03:17.585Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:03:20.414Z [info]: GET /api/product 200 - 104ms
+2026-10-06T06:03:20.643Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-06T06:03:20.650Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-06T06:03:20.659Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-06T06:03:20.668Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:03:23.334Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:03:23.339Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:03:23.349Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:03:23.352Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:03:23.485Z [info]: GET /api/category 304 - 5ms
+2026-10-06T06:03:23.487Z [info]: GET /api/color 304 - 5ms
+2026-10-06T06:03:23.491Z [info]: GET /api/size 304 - 1ms
+2026-10-06T06:03:23.512Z [info]: GET /api/category 304 - 3ms
+2026-10-06T06:03:23.515Z [info]: GET /api/size 304 - 4ms
+2026-10-06T06:03:23.518Z [info]: GET /api/color 304 - 8ms
+2026-10-06T06:03:25.357Z [info]: GET /api/product 200 - 21ms
+2026-10-06T06:03:25.625Z [info]: GET /api/auth/me 304 - 8ms
+2026-10-06T06:03:25.630Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-06T06:03:25.637Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:03:25.643Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:03:28.692Z [info]: GET /api/product/2 200 - 25ms
+2026-10-06T06:03:28.697Z [info]: GET /api/product/2 304 - 4ms
+2026-10-06T06:03:28.716Z [info]: GET /api/category 304 - 3ms
+2026-10-06T06:03:28.728Z [info]: GET /api/color 304 - 14ms
+2026-10-06T06:03:28.729Z [info]: GET /api/size 304 - 14ms
+2026-10-06T06:03:28.733Z [info]: GET /api/category 304 - 3ms
+2026-10-06T06:03:28.736Z [info]: GET /api/color 304 - 5ms
+2026-10-06T06:03:28.741Z [info]: GET /api/size 304 - 9ms
+2026-10-06T06:03:43.134Z [info]: PATCH /api/product/2 200 - 215ms
+2026-10-06T06:03:51.000Z [info]: GET /api/product/2 200 - 79ms
+2026-10-06T06:03:51.023Z [info]: GET /api/category 304 - 3ms
+2026-10-06T06:03:51.026Z [info]: GET /api/size 304 - 4ms
+2026-10-06T06:03:51.031Z [info]: GET /api/color 304 - 10ms
+2026-10-06T06:03:51.036Z [info]: GET /api/size 304 - 2ms
+2026-10-06T06:03:51.041Z [info]: GET /api/color 304 - 6ms
+2026-10-06T06:03:51.042Z [info]: GET /api/category 304 - 9ms
+2026-10-06T06:03:51.096Z [info]: GET /api/product/2 304 - 93ms
+2026-10-06T06:03:58.415Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-06T06:03:58.431Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:03:58.441Z [info]: GET /api/auth/me 304 - 1ms
+2026-10-06T06:03:58.462Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:03:58.623Z [info]: GET /api/size 304 - 3ms
+2026-10-06T06:03:58.632Z [info]: GET /api/color 304 - 11ms
+2026-10-06T06:03:58.648Z [info]: GET /api/category 304 - 30ms
+2026-10-06T06:03:58.661Z [info]: GET /api/color 304 - 1ms
+2026-10-06T06:03:58.666Z [info]: GET /api/size 304 - 7ms
+2026-10-06T06:03:58.668Z [info]: GET /api/category 304 - 3ms
+2026-10-06T06:04:31.262Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-06T06:04:31.310Z [info]: GET /api/auth/me 304 - 1ms
+2026-10-06T06:04:31.391Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-06T06:04:31.402Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:04:31.492Z [info]: GET /api/product 200 - 813ms
+2026-10-06T06:04:34.308Z [info]: GET /api/product/3 200 - 31ms
+2026-10-06T06:04:34.323Z [info]: GET /api/product/3 304 - 14ms
+2026-10-06T06:04:34.335Z [info]: GET /api/category 304 - 3ms
+2026-10-06T06:04:34.341Z [info]: GET /api/size 304 - 8ms
+2026-10-06T06:04:34.344Z [info]: GET /api/color 304 - 11ms
+2026-10-06T06:04:34.347Z [info]: GET /api/size 304 - 1ms
+2026-10-06T06:04:34.353Z [info]: GET /api/color 304 - 7ms
+2026-10-06T06:04:34.359Z [info]: GET /api/category 304 - 14ms
+2026-10-06T06:04:44.033Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:04:44.044Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:04:44.056Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:04:44.062Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:04:44.242Z [info]: GET /api/category 304 - 2ms
+2026-10-06T06:04:44.275Z [info]: GET /api/color 304 - 34ms
+2026-10-06T06:04:44.280Z [info]: GET /api/size 304 - 38ms
+2026-10-06T06:04:44.282Z [info]: GET /api/category 304 - 2ms
+2026-10-06T06:04:44.295Z [info]: GET /api/color 304 - 13ms
+2026-10-06T06:04:44.328Z [info]: GET /api/size 304 - 4ms
+2026-10-06T06:11:36.283Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-06T06:11:36.293Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:11:36.313Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:11:36.328Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:11:36.358Z [info]: GET /api/product 200 - 443ms
+2026-10-06T06:11:38.703Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-06T06:11:38.732Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-06T06:11:38.755Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-06T06:11:38.788Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:11:38.903Z [info]: GET /api/category 304 - 7ms
+2026-10-06T06:11:38.905Z [info]: GET /api/color 304 - 5ms
+2026-10-06T06:11:38.908Z [info]: GET /api/size 304 - 7ms
+2026-10-06T06:11:38.929Z [info]: GET /api/color 304 - 2ms
+2026-10-06T06:11:38.933Z [info]: GET /api/category 304 - 7ms
+2026-10-06T06:11:38.936Z [info]: GET /api/size 304 - 8ms
+2026-10-06T06:12:05.412Z [info]: GET /api/auth/me 304 - 175ms
+2026-10-06T06:12:05.416Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:12:05.420Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-06T06:12:05.425Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:12:05.500Z [info]: GET /api/category 304 - 6ms
+2026-10-06T06:12:05.517Z [info]: GET /api/category 304 - 2ms
+2026-10-06T06:12:05.598Z [info]: GET /api/color 304 - 102ms
+2026-10-06T06:12:05.662Z [info]: GET /api/color 304 - 2ms
+2026-10-06T06:12:05.715Z [info]: GET /api/size 304 - 217ms
+2026-10-06T06:12:05.718Z [info]: GET /api/size 304 - 1ms
+2026-10-06T06:12:08.786Z [info]: GET /api/auth/me 200 - 6ms
+2026-10-06T06:12:08.798Z [info]: GET /api/auth/me 200 - 4ms
+2026-10-06T06:12:08.810Z [info]: GET /api/auth/me 200 - 13ms
+2026-10-06T06:12:08.833Z [info]: GET /api/auth/me 200 - 38ms
+2026-10-06T06:12:09.024Z [info]: GET /api/size 304 - 1ms
+2026-10-06T06:12:09.027Z [info]: GET /api/category 304 - 6ms
+2026-10-06T06:12:09.029Z [info]: GET /api/color 304 - 7ms
+2026-10-06T06:12:09.041Z [info]: GET /api/category 304 - 2ms
+2026-10-06T06:12:09.043Z [info]: GET /api/color 304 - 3ms
+2026-10-06T06:12:09.048Z [info]: GET /api/size 304 - 6ms
+2026-10-06T06:14:30.371Z [info]: GET /api/auth/me 304 - 463ms
+2026-10-06T06:14:30.413Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:14:30.502Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:14:30.550Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:14:30.793Z [info]: GET /api/category 304 - 7ms
+2026-10-06T06:14:30.839Z [info]: GET /api/category 304 - 1ms
+2026-10-06T06:14:31.097Z [info]: GET /api/color 304 - 308ms
+2026-10-06T06:14:31.171Z [info]: GET /api/color 304 - 2ms
+2026-10-06T06:14:31.246Z [info]: GET /api/size 304 - 456ms
+2026-10-06T06:14:31.331Z [info]: GET /api/size 304 - 1ms
+2026-10-06T06:16:48.319Z [info]: GET /api/auth/me 304 - 289ms
+2026-10-06T06:16:48.359Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:16:48.454Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:16:48.517Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-06T06:16:48.649Z [info]: GET /api/category 304 - 4ms
+2026-10-06T06:16:48.675Z [info]: GET /api/category 304 - 1ms
+2026-10-06T06:16:48.766Z [info]: GET /api/size 304 - 119ms
+2026-10-06T06:16:48.780Z [info]: GET /api/size 304 - 2ms
+2026-10-06T06:16:48.949Z [info]: GET /api/color 304 - 303ms
+2026-10-06T06:16:48.953Z [info]: GET /api/color 304 - 3ms
+2026-10-07T06:19:28.017Z [info]: Server running on http://localhost:5000
+2026-10-07T06:20:08.163Z [info]: GET /api/product 200 - 1524ms
+2026-10-07T06:20:51.035Z [info]: GET /api/product 200 - 310ms
+2026-10-07T06:21:13.384Z [info]: GET /api/product 200 - 268ms
+2026-10-07T06:21:21.166Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-07T06:21:21.180Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-07T06:21:21.206Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-07T06:21:21.216Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-07T06:21:21.843Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-07T06:21:21.848Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-07T06:21:28.297Z [info]: POST /api/auth/login 200 - 188ms
+2026-10-07T06:21:28.533Z [info]: GET /api/auth/me 304 - 14ms
+2026-10-07T06:21:28.541Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-07T06:21:28.548Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T06:21:28.560Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T06:21:32.107Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T06:21:32.118Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T06:21:32.128Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T06:21:32.133Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T06:21:32.487Z [info]: GET /api/category 304 - 9ms
+2026-10-07T06:21:32.501Z [info]: GET /api/size 304 - 7ms
+2026-10-07T06:21:32.542Z [info]: GET /api/category 304 - 3ms
+2026-10-07T06:21:32.611Z [info]: GET /api/color 304 - 128ms
+2026-10-07T06:21:32.628Z [info]: GET /api/color 304 - 4ms
+2026-10-07T06:21:32.689Z [info]: GET /api/size 304 - 149ms
+2026-10-07T06:22:13.950Z [info]: POST /api/product 400 - 9ms
+2026-10-07T06:22:14.466Z [info]: POST /api/product 400 - 2ms
+2026-10-07T06:22:17.563Z [info]: POST /api/product 400 - 2ms
+2026-10-07T06:23:37.765Z [info]: GET /api/auth/me 304 - 326ms
+2026-10-07T06:23:37.788Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T06:23:37.813Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T06:23:37.823Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T06:23:37.882Z [info]: GET /api/category 304 - 6ms
+2026-10-07T06:23:37.892Z [info]: GET /api/size 304 - 5ms
+2026-10-07T06:23:37.898Z [info]: GET /api/category 304 - 4ms
+2026-10-07T06:23:37.923Z [info]: GET /api/category 304 - 3ms
+2026-10-07T06:23:38.008Z [info]: GET /api/category 304 - 1ms
+2026-10-07T06:23:38.078Z [info]: GET /api/color 304 - 201ms
+2026-10-07T06:23:38.089Z [info]: GET /api/color 304 - 1ms
+2026-10-07T06:23:38.096Z [info]: GET /api/size 304 - 200ms
+2026-10-07T06:23:38.121Z [info]: GET /api/color 304 - 5ms
+2026-10-07T06:23:38.124Z [info]: GET /api/size 304 - 7ms
+2026-10-07T06:23:38.138Z [info]: GET /api/color 304 - 3ms
+2026-10-07T06:23:38.143Z [info]: GET /api/size 304 - 7ms
+2026-10-07T06:24:02.182Z [info]: POST /api/product 400 - 2ms
+2026-10-07T13:13:16.922Z [info]: Server running on http://localhost:5000
+2026-10-07T13:13:59.807Z [info]: GET /api/auth/me 401 - 8ms
+2026-10-07T13:13:59.822Z [info]: GET /api/auth/me 401 - 2ms
+2026-10-07T13:13:59.866Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-07T13:13:59.894Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-07T13:14:01.380Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-07T13:14:01.405Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-07T13:14:06.865Z [info]: POST /api/auth/login 200 - 652ms
+2026-10-07T13:14:07.328Z [info]: GET /api/auth/me 304 - 21ms
+2026-10-07T13:14:07.337Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-07T13:14:07.376Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T13:14:07.398Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:14:12.090Z [info]: GET /api/auth/me 304 - 7ms
+2026-10-07T13:14:12.101Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:14:12.112Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:14:12.118Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T13:14:12.258Z [info]: GET /api/product 200 - 468ms
+2026-10-07T13:14:19.357Z [info]: GET /api/auth/me 304 - 8ms
+2026-10-07T13:14:19.363Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T13:14:19.382Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T13:14:19.402Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T13:14:19.580Z [info]: GET /api/size 304 - 3ms
+2026-10-07T13:14:19.583Z [info]: GET /api/category 304 - 9ms
+2026-10-07T13:14:19.589Z [info]: GET /api/color 304 - 11ms
+2026-10-07T13:14:19.600Z [info]: GET /api/color 304 - 3ms
+2026-10-07T13:14:19.605Z [info]: GET /api/size 304 - 7ms
+2026-10-07T13:14:19.608Z [info]: GET /api/category 304 - 2ms
+2026-10-07T13:14:35.046Z [info]: POST /api/product 400 - 6ms
+2026-10-07T13:14:59.388Z [info]: GET /api/auth/me 304 - 114ms
+2026-10-07T13:14:59.391Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T13:14:59.405Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T13:14:59.437Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T13:14:59.489Z [info]: GET /api/category 304 - 5ms
+2026-10-07T13:14:59.506Z [info]: GET /api/category 304 - 2ms
+2026-10-07T13:14:59.609Z [info]: GET /api/size 304 - 123ms
+2026-10-07T13:14:59.611Z [info]: GET /api/size 304 - 1ms
+2026-10-07T13:14:59.629Z [info]: GET /api/color 304 - 144ms
+2026-10-07T13:14:59.634Z [info]: GET /api/color 304 - 4ms
+2026-10-07T13:15:16.627Z [info]: POST /api/product 400 - 1ms
+2026-10-07T13:16:22.746Z [info]: POST /api/product 400 - 1ms
+2026-10-07T13:16:34.928Z [info]: GET /api/auth/me 304 - 292ms
+2026-10-07T13:16:34.934Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T13:16:34.943Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T13:16:34.958Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:16:35.028Z [info]: GET /api/category 304 - 6ms
+2026-10-07T13:16:35.046Z [info]: GET /api/category 304 - 2ms
+2026-10-07T13:16:35.168Z [info]: GET /api/size 304 - 145ms
+2026-10-07T13:16:35.172Z [info]: GET /api/size 304 - 1ms
+2026-10-07T13:16:35.185Z [info]: GET /api/color 304 - 161ms
+2026-10-07T13:16:35.189Z [info]: GET /api/color 304 - 2ms
+2026-10-07T13:16:48.631Z [info]: POST /api/product 400 - 1ms
+2026-10-07T13:17:12.519Z [info]: POST /api/product 400 - 1ms
+2026-10-07T13:18:56.268Z [info]: GET /api/auth/me 304 - 90ms
+2026-10-07T13:18:56.277Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T13:18:56.285Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T13:18:56.305Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:18:56.714Z [info]: GET /api/category 304 - 4ms
+2026-10-07T13:18:56.850Z [info]: GET /api/size 304 - 4ms
+2026-10-07T13:18:56.992Z [info]: GET /api/category 304 - 1ms
+2026-10-07T13:18:57.113Z [info]: GET /api/size 304 - 1ms
+2026-10-07T13:18:58.212Z [info]: GET /api/color 304 - 1365ms
+2026-10-07T13:18:58.227Z [info]: GET /api/color 304 - 2ms
+2026-10-07T13:19:12.747Z [info]: POST /api/product 400 - 1ms
+2026-10-07T13:23:26.887Z [info]: Server running on http://localhost:5000
+2026-10-07T13:27:23.196Z [info]: GET /api/auth/me 304 - 317ms
+2026-10-07T13:27:23.203Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-07T13:27:23.207Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:27:23.212Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:27:23.538Z [info]: GET /api/category 304 - 8ms
+2026-10-07T13:27:23.545Z [info]: GET /api/color 304 - 6ms
+2026-10-07T13:27:23.553Z [info]: GET /api/size 304 - 6ms
+2026-10-07T13:27:23.589Z [info]: GET /api/category 304 - 2ms
+2026-10-07T13:27:23.599Z [info]: GET /api/color 304 - 2ms
+2026-10-07T13:27:23.611Z [info]: GET /api/size 304 - 3ms
+2026-10-07T13:27:40.614Z [info]: POST /api/product 201 - 174ms
+2026-10-07T13:27:52.136Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T13:27:52.141Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T13:27:52.157Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:27:52.165Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-07T13:27:52.203Z [info]: GET /api/product 200 - 379ms
+2026-10-07T13:29:47.841Z [info]: GET /api/auth/me 304 - 143ms
+2026-10-07T13:29:47.849Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T13:29:47.882Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T13:29:47.910Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T13:29:48.043Z [info]: GET /api/category 304 - 8ms
+2026-10-07T13:29:48.071Z [info]: GET /api/category 304 - 4ms
+2026-10-07T13:29:48.299Z [info]: GET /api/size 304 - 258ms
+2026-10-07T13:29:48.310Z [info]: GET /api/size 304 - 4ms
+2026-10-07T13:29:48.334Z [info]: GET /api/color 304 - 296ms
+2026-10-07T13:29:48.350Z [info]: GET /api/color 304 - 2ms
+2026-10-07T13:30:01.088Z [info]: POST /api/product 201 - 182ms
+2026-10-07T13:30:05.655Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-07T13:30:05.684Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T13:30:05.698Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:30:05.713Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T13:30:05.792Z [info]: GET /api/product 200 - 540ms
+2026-10-07T13:30:33.447Z [info]: GET /api/auth/me 304 - 136ms
+2026-10-07T13:30:33.451Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:30:33.456Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T13:30:33.463Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:30:33.617Z [info]: GET /api/category 304 - 6ms
+2026-10-07T13:30:33.624Z [info]: GET /api/color 304 - 6ms
+2026-10-07T13:30:33.645Z [info]: GET /api/category 304 - 3ms
+2026-10-07T13:30:33.790Z [info]: GET /api/color 304 - 147ms
+2026-10-07T13:30:33.817Z [info]: GET /api/size 304 - 198ms
+2026-10-07T13:30:33.820Z [info]: GET /api/size 304 - 2ms
+2026-10-07T13:40:24.767Z [info]: GET /api/auth/me 304 - 216ms
+2026-10-07T13:40:24.775Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:40:24.826Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T13:40:24.836Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:40:24.963Z [info]: GET /api/category 304 - 5ms
+2026-10-07T13:40:24.975Z [info]: GET /api/color 304 - 5ms
+2026-10-07T13:40:25.058Z [info]: GET /api/color 304 - 3ms
+2026-10-07T13:40:25.381Z [info]: GET /api/category 304 - 325ms
+2026-10-07T13:40:25.386Z [info]: GET /api/size 304 - 416ms
+2026-10-07T13:40:25.391Z [info]: GET /api/size 304 - 2ms
+2026-10-07T13:41:19.886Z [info]: GET /api/auth/me 304 - 130ms
+2026-10-07T13:41:19.896Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T13:41:19.917Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:41:19.989Z [info]: GET /api/product 200 - 635ms
+2026-10-07T13:41:20.108Z [info]: GET /api/auth/me 304 - 176ms
+2026-10-07T13:41:23.699Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:41:23.702Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T13:41:23.706Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:41:23.712Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T13:41:23.898Z [info]: GET /api/category 304 - 9ms
+2026-10-07T13:41:23.903Z [info]: GET /api/color 304 - 11ms
+2026-10-07T13:41:23.906Z [info]: GET /api/size 304 - 7ms
+2026-10-07T13:41:23.924Z [info]: GET /api/category 304 - 3ms
+2026-10-07T13:41:23.930Z [info]: GET /api/color 304 - 8ms
+2026-10-07T13:41:23.932Z [info]: GET /api/size 304 - 9ms
+2026-10-07T13:41:34.338Z [info]: GET /api/auth/me 304 - 153ms
+2026-10-07T13:41:34.343Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T13:41:34.353Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:41:34.368Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T13:41:34.506Z [info]: GET /api/category 304 - 7ms
+2026-10-07T13:41:34.529Z [info]: GET /api/category 304 - 2ms
+2026-10-07T13:41:34.663Z [info]: GET /api/size 304 - 159ms
+2026-10-07T13:41:34.667Z [info]: GET /api/size 304 - 2ms
+2026-10-07T13:41:34.673Z [info]: GET /api/color 304 - 173ms
+2026-10-07T13:41:34.678Z [info]: GET /api/color 304 - 4ms
+2026-10-07T13:41:54.602Z [info]: POST /api/product 201 - 211ms
+2026-10-07T13:41:58.064Z [info]: GET /api/auth/me 304 - 7ms
+2026-10-07T13:41:58.080Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T13:41:58.121Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:41:58.139Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:41:58.181Z [info]: GET /api/product 200 - 502ms
+2026-10-07T13:42:55.611Z [info]: GET /api/product/6 200 - 273ms
+2026-10-07T13:42:55.633Z [info]: GET /api/product/6 304 - 20ms
+2026-10-07T13:42:55.684Z [info]: GET /api/color 304 - 3ms
+2026-10-07T13:42:55.769Z [info]: GET /api/category 304 - 89ms
+2026-10-07T13:42:55.845Z [info]: GET /api/size 304 - 163ms
+2026-10-07T13:42:55.918Z [info]: GET /api/category 304 - 7ms
+2026-10-07T13:42:55.944Z [info]: GET /api/color 304 - 34ms
+2026-10-07T13:42:55.948Z [info]: GET /api/size 304 - 35ms
+2026-10-07T13:43:07.090Z [info]: PATCH /api/product/6 200 - 390ms
+2026-10-07T13:43:13.400Z [info]: GET /api/product 200 - 400ms
+2026-10-07T13:43:13.454Z [info]: GET /api/auth/me 304 - 8ms
+2026-10-07T13:43:13.488Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:43:13.532Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T13:43:13.566Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T15:23:39.406Z [info]: GET /api/product/3 304 - 387ms
+2026-10-07T15:23:39.459Z [info]: GET /api/category 304 - 7ms
+2026-10-07T15:23:39.474Z [info]: GET /api/size 304 - 20ms
+2026-10-07T15:23:39.479Z [info]: GET /api/color 304 - 26ms
+2026-10-07T15:23:39.485Z [info]: GET /api/product/3 304 - 77ms
+2026-10-07T15:23:39.494Z [info]: GET /api/category 304 - 4ms
+2026-10-07T15:23:39.510Z [info]: GET /api/size 304 - 19ms
+2026-10-07T15:23:39.531Z [info]: GET /api/color 304 - 38ms
+2026-10-07T15:25:17.700Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-07T15:25:17.738Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-07T15:25:17.753Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-07T15:25:17.765Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-07T15:25:17.939Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-07T15:25:17.955Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-07T15:25:25.405Z [info]: POST /api/auth/login 200 - 166ms
+2026-10-07T15:25:25.616Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T15:25:25.629Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:25:25.636Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:25:25.657Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T15:25:31.385Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T15:25:31.390Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T15:25:31.419Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:25:31.444Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-07T15:25:31.626Z [info]: GET /api/category 304 - 7ms
+2026-10-07T15:25:31.675Z [info]: GET /api/category 304 - 2ms
+2026-10-07T15:25:31.830Z [info]: GET /api/color 304 - 210ms
+2026-10-07T15:25:31.835Z [info]: GET /api/color 304 - 1ms
+2026-10-07T15:25:31.855Z [info]: GET /api/size 304 - 232ms
+2026-10-07T15:25:31.866Z [info]: GET /api/size 304 - 4ms
+2026-10-07T15:26:20.010Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-07T15:26:20.035Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T15:26:20.097Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:26:20.208Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T15:26:20.334Z [info]: GET /api/product 200 - 801ms
+2026-10-07T15:26:24.079Z [info]: GET /api/product/3 304 - 6ms
+2026-10-07T15:26:24.133Z [info]: GET /api/category 304 - 3ms
+2026-10-07T15:26:24.148Z [info]: GET /api/color 304 - 17ms
+2026-10-07T15:26:24.196Z [info]: GET /api/size 304 - 65ms
+2026-10-07T15:26:24.281Z [info]: GET /api/color 304 - 3ms
+2026-10-07T15:26:24.368Z [info]: GET /api/category 304 - 92ms
+2026-10-07T15:26:24.383Z [info]: GET /api/size 304 - 2ms
+2026-10-07T15:26:24.446Z [info]: GET /api/product/3 304 - 363ms
+2026-10-07T15:27:10.589Z [info]: GET /api/auth/me 304 - 129ms
+2026-10-07T15:27:10.593Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T15:27:10.600Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T15:27:10.630Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T15:27:10.756Z [info]: GET /api/category 304 - 7ms
+2026-10-07T15:27:10.781Z [info]: GET /api/category 304 - 2ms
+2026-10-07T15:27:10.948Z [info]: GET /api/size 304 - 194ms
+2026-10-07T15:27:10.955Z [info]: GET /api/size 304 - 3ms
+2026-10-07T15:27:10.961Z [info]: GET /api/color 304 - 209ms
+2026-10-07T15:27:10.966Z [info]: GET /api/color 304 - 2ms
+2026-10-07T15:41:09.606Z [info]: GET /api/auth/me 304 - 115ms
+2026-10-07T15:41:09.610Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T15:41:09.616Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T15:41:09.627Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T15:41:09.785Z [info]: GET /api/category 304 - 6ms
+2026-10-07T15:41:09.794Z [info]: GET /api/size 304 - 5ms
+2026-10-07T15:41:09.815Z [info]: GET /api/category 304 - 2ms
+2026-10-07T15:41:09.989Z [info]: GET /api/size 304 - 175ms
+2026-10-07T15:41:09.993Z [info]: GET /api/color 304 - 211ms
+2026-10-07T15:41:10.006Z [info]: GET /api/color 304 - 4ms
+2026-10-07T15:44:04.076Z [info]: GET /api/auth/me 304 - 140ms
+2026-10-07T15:44:04.082Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:44:04.088Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:44:04.127Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-07T15:44:04.404Z [info]: GET /api/category 304 - 8ms
+2026-10-07T15:44:04.478Z [info]: GET /api/category 304 - 2ms
+2026-10-07T15:44:04.716Z [info]: GET /api/size 304 - 317ms
+2026-10-07T15:44:04.720Z [info]: GET /api/size 304 - 2ms
+2026-10-07T15:44:04.731Z [info]: GET /api/color 304 - 333ms
+2026-10-07T15:44:04.736Z [info]: GET /api/color 304 - 1ms
+2026-10-07T15:46:05.098Z [info]: GET /api/auth/me 304 - 303ms
+2026-10-07T15:46:05.133Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:46:05.166Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T15:46:05.197Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:46:05.333Z [info]: GET /api/category 304 - 5ms
+2026-10-07T15:46:05.348Z [info]: GET /api/color 304 - 6ms
+2026-10-07T15:46:05.370Z [info]: GET /api/color 304 - 5ms
+2026-10-07T15:46:05.583Z [info]: GET /api/size 304 - 240ms
+2026-10-07T15:46:05.594Z [info]: GET /api/size 304 - 2ms
+2026-10-07T15:46:05.616Z [info]: GET /api/category 304 - 250ms
+2026-10-07T15:46:25.051Z [info]: GET /api/auth/me 304 - 264ms
+2026-10-07T15:46:25.055Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:46:25.067Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T15:46:25.078Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:46:25.464Z [info]: GET /api/category 304 - 5ms
+2026-10-07T15:46:25.759Z [info]: GET /api/color 304 - 5ms
+2026-10-07T15:46:25.825Z [info]: GET /api/category 304 - 4ms
+2026-10-07T15:46:26.101Z [info]: GET /api/color 304 - 279ms
+2026-10-07T15:46:26.132Z [info]: GET /api/size 304 - 377ms
+2026-10-07T15:46:26.141Z [info]: GET /api/size 304 - 1ms
+2026-10-07T15:50:02.233Z [info]: GET /api/auth/me 304 - 1160ms
+2026-10-07T15:50:02.375Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-07T15:50:02.703Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T15:50:02.861Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-07T15:50:52.240Z [info]: GET /api/auth/me 304 - 848ms
+2026-10-07T15:50:52.248Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:50:52.280Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:50:52.298Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T15:51:36.013Z [info]: GET /api/auth/me 304 - 608ms
+2026-10-07T15:51:36.026Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T15:51:36.046Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:51:36.065Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:51:36.261Z [info]: GET /api/category 304 - 6ms
+2026-10-07T15:51:36.273Z [info]: GET /api/color 304 - 5ms
+2026-10-07T15:51:36.289Z [info]: GET /api/size 304 - 6ms
+2026-10-07T15:51:36.392Z [info]: GET /api/category 304 - 2ms
+2026-10-07T15:51:36.427Z [info]: GET /api/size 304 - 2ms
+2026-10-07T15:51:36.714Z [info]: GET /api/color 304 - 288ms
+2026-10-07T15:52:02.202Z [info]: GET /api/auth/me 304 - 747ms
+2026-10-07T15:52:02.478Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:52:02.659Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:52:02.757Z [info]: GET /api/category 304 - 11ms
+2026-10-07T15:52:02.858Z [info]: GET /api/category 304 - 1ms
+2026-10-07T15:52:03.189Z [info]: GET /api/auth/me 304 - 434ms
+2026-10-07T15:52:03.479Z [info]: GET /api/color 304 - 731ms
+2026-10-07T15:52:03.506Z [info]: GET /api/size 304 - 756ms
+2026-10-07T15:52:03.539Z [info]: GET /api/color 304 - 6ms
+2026-10-07T15:52:03.541Z [info]: GET /api/size 304 - 7ms
+2026-10-07T15:52:10.607Z [info]: GET /api/product 200 - 31ms
+2026-10-07T15:52:11.938Z [info]: GET /api/auth/me 304 - 8ms
+2026-10-07T15:52:12.003Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-07T15:52:12.341Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-07T15:52:12.629Z [info]: GET /api/auth/me 304 - 10ms
+2026-10-07T15:52:16.280Z [info]: GET /api/product/3 304 - 5ms
+2026-10-07T15:52:16.362Z [info]: GET /api/product/3 304 - 6ms
+2026-10-07T15:52:16.496Z [info]: GET /api/category 304 - 2ms
+2026-10-07T15:52:16.544Z [info]: GET /api/category 304 - 2ms
+2026-10-07T15:52:16.553Z [info]: GET /api/size 304 - 10ms
+2026-10-07T15:52:16.558Z [info]: GET /api/color 304 - 16ms
+2026-10-07T15:52:16.570Z [info]: GET /api/size 304 - 4ms
+2026-10-07T15:52:16.573Z [info]: GET /api/color 304 - 5ms
+2026-10-07T15:52:44.779Z [info]: GET /api/auth/me 304 - 232ms
+2026-10-07T15:52:44.794Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:52:44.806Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:52:44.858Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:52:46.038Z [info]: GET /api/product/3 304 - 798ms
+2026-10-07T15:52:46.207Z [info]: GET /api/product/3 304 - 21ms
+2026-10-07T15:52:46.628Z [info]: GET /api/size 304 - 2ms
+2026-10-07T15:52:46.646Z [info]: GET /api/category 304 - 23ms
+2026-10-07T15:52:46.648Z [info]: GET /api/color 304 - 23ms
+2026-10-07T15:52:46.717Z [info]: GET /api/category 304 - 3ms
+2026-10-07T15:52:46.725Z [info]: GET /api/size 304 - 12ms
+2026-10-07T15:52:46.733Z [info]: GET /api/color 304 - 17ms
+2026-10-07T15:53:30.366Z [info]: GET /api/auth/me 304 - 978ms
+2026-10-07T15:53:30.472Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:53:30.616Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:53:30.904Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:53:31.660Z [info]: GET /api/product/3 304 - 856ms
+2026-10-07T15:53:31.703Z [info]: GET /api/product/3 304 - 29ms
+2026-10-07T15:53:31.767Z [info]: GET /api/category 304 - 3ms
+2026-10-07T15:53:31.807Z [info]: GET /api/color 304 - 42ms
+2026-10-07T15:53:31.908Z [info]: GET /api/size 304 - 6ms
+2026-10-07T15:53:31.941Z [info]: GET /api/category 304 - 38ms
+2026-10-07T15:53:31.953Z [info]: GET /api/color 304 - 48ms
+2026-10-07T15:53:31.959Z [info]: GET /api/size 304 - 5ms
+2026-10-07T15:54:00.670Z [info]: GET /api/auth/me 304 - 828ms
+2026-10-07T15:54:00.676Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T15:54:00.685Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:54:00.695Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:54:01.111Z [info]: GET /api/category 304 - 8ms
+2026-10-07T15:54:01.210Z [info]: GET /api/category 304 - 2ms
+2026-10-07T15:54:01.676Z [info]: GET /api/size 304 - 568ms
+2026-10-07T15:54:01.824Z [info]: GET /api/size 304 - 1ms
+2026-10-07T15:54:01.856Z [info]: GET /api/color 304 - 749ms
+2026-10-07T15:54:01.949Z [info]: GET /api/color 304 - 6ms
+2026-10-07T15:56:04.045Z [info]: GET /api/auth/me 304 - 256ms
+2026-10-07T15:56:04.053Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:56:04.137Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T15:56:04.178Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T15:56:04.368Z [info]: GET /api/category 304 - 5ms
+2026-10-07T15:56:04.383Z [info]: GET /api/color 304 - 5ms
+2026-10-07T15:56:04.405Z [info]: GET /api/category 304 - 3ms
+2026-10-07T15:56:04.415Z [info]: GET /api/color 304 - 1ms
+2026-10-07T15:56:05.222Z [info]: GET /api/size 304 - 843ms
+2026-10-07T15:56:05.322Z [info]: GET /api/size 304 - 2ms
+2026-10-07T15:57:03.665Z [info]: GET /api/auth/me 304 - 1465ms
+2026-10-07T15:57:03.750Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T15:57:04.132Z [info]: GET /api/auth/me 304 - 7ms
+2026-10-07T15:57:04.211Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T15:57:04.446Z [info]: GET /api/product/3 304 - 277ms
+2026-10-07T15:57:04.528Z [info]: GET /api/category 304 - 6ms
+2026-10-07T15:57:04.541Z [info]: GET /api/color 304 - 3ms
+2026-10-07T15:57:04.549Z [info]: GET /api/size 304 - 10ms
+2026-10-07T15:57:04.556Z [info]: GET /api/category 304 - 9ms
+2026-10-07T15:57:04.578Z [info]: GET /api/color 304 - 2ms
+2026-10-07T15:57:04.596Z [info]: GET /api/size 304 - 2ms
+2026-10-07T15:57:04.602Z [info]: GET /api/product/3 304 - 137ms
+2026-10-07T15:57:07.726Z [info]: GET /api/auth/me 304 - 9ms
+2026-10-07T15:57:08.022Z [info]: GET /api/auth/me 304 - 9ms
+2026-10-07T15:57:08.235Z [info]: GET /api/category 304 - 220ms
+2026-10-07T15:57:08.398Z [info]: GET /api/color 304 - 382ms
+2026-10-07T15:57:08.473Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-07T15:57:08.505Z [info]: GET /api/category 304 - 34ms
+2026-10-07T15:57:08.531Z [info]: GET /api/color 304 - 28ms
+2026-10-07T15:57:08.638Z [info]: GET /api/auth/me 304 - 110ms
+2026-10-07T15:57:08.962Z [info]: GET /api/size 304 - 945ms
+2026-10-07T15:57:09.115Z [info]: GET /api/size 304 - 2ms
+2026-10-07T16:00:35.286Z [info]: GET /api/auth/me 304 - 371ms
+2026-10-07T16:00:35.302Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T16:00:35.349Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T16:00:35.387Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T16:00:35.906Z [info]: GET /api/category 304 - 7ms
+2026-10-07T16:00:36.141Z [info]: GET /api/category 304 - 2ms
+2026-10-07T16:00:36.441Z [info]: GET /api/size 304 - 536ms
+2026-10-07T16:00:36.555Z [info]: GET /api/size 304 - 1ms
+2026-10-07T16:00:36.781Z [info]: GET /api/color 304 - 878ms
+2026-10-07T16:00:36.898Z [info]: GET /api/color 304 - 1ms
+2026-10-07T16:02:08.276Z [info]: GET /api/auth/me 304 - 772ms
+2026-10-07T16:02:08.285Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:02:08.291Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T16:02:08.301Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T16:02:08.632Z [info]: GET /api/category 304 - 5ms
+2026-10-07T16:02:08.642Z [info]: GET /api/color 304 - 5ms
+2026-10-07T16:02:08.660Z [info]: GET /api/size 304 - 6ms
+2026-10-07T16:02:08.719Z [info]: GET /api/category 304 - 2ms
+2026-10-07T16:02:08.783Z [info]: GET /api/size 304 - 2ms
+2026-10-07T16:02:09.469Z [info]: GET /api/color 304 - 686ms
+2026-10-07T16:04:00.950Z [info]: POST /api/product 201 - 118ms
+2026-10-07T16:04:47.712Z [info]: GET /api/auth/me 304 - 675ms
+2026-10-07T16:04:47.793Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:04:48.257Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T16:04:48.339Z [info]: GET /api/category 304 - 11ms
+2026-10-07T16:04:48.529Z [info]: GET /api/category 304 - 2ms
+2026-10-07T16:04:48.790Z [info]: GET /api/color 304 - 461ms
+2026-10-07T16:04:48.833Z [info]: GET /api/auth/me 304 - 502ms
+2026-10-07T16:04:48.862Z [info]: GET /api/color 304 - 5ms
+2026-10-07T16:04:48.955Z [info]: GET /api/size 304 - 625ms
+2026-10-07T16:04:49.039Z [info]: GET /api/size 304 - 1ms
+2026-10-07T16:10:41.421Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-07T16:10:41.432Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:10:41.496Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:10:41.511Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:10:41.676Z [info]: GET /api/product 200 - 637ms
+2026-10-07T16:10:48.411Z [info]: GET /api/product/7 200 - 91ms
+2026-10-07T16:10:48.424Z [info]: GET /api/product/7 304 - 11ms
+2026-10-07T16:10:48.436Z [info]: GET /api/category 304 - 2ms
+2026-10-07T16:10:48.442Z [info]: GET /api/color 304 - 7ms
+2026-10-07T16:10:48.447Z [info]: GET /api/size 304 - 6ms
+2026-10-07T16:10:48.449Z [info]: GET /api/category 304 - 3ms
+2026-10-07T16:10:48.453Z [info]: GET /api/color 304 - 7ms
+2026-10-07T16:10:48.460Z [info]: GET /api/size 304 - 5ms
+2026-10-07T16:10:58.126Z [info]: PATCH /api/product/7 200 - 38ms
+2026-10-07T16:11:05.461Z [info]: GET /api/product 200 - 135ms
+2026-10-07T16:11:05.654Z [info]: GET /api/auth/me 304 - 8ms
+2026-10-07T16:11:05.694Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:11:05.715Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:11:05.726Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:11:10.294Z [info]: GET /api/product/8 200 - 83ms
+2026-10-07T16:11:10.306Z [info]: GET /api/product/8 304 - 10ms
+2026-10-07T16:11:10.321Z [info]: GET /api/category 304 - 3ms
+2026-10-07T16:11:10.325Z [info]: GET /api/size 304 - 5ms
+2026-10-07T16:11:10.327Z [info]: GET /api/color 304 - 8ms
+2026-10-07T16:11:10.331Z [info]: GET /api/size 304 - 2ms
+2026-10-07T16:11:10.334Z [info]: GET /api/category 304 - 6ms
+2026-10-07T16:11:10.338Z [info]: GET /api/color 304 - 1ms
+2026-10-07T16:11:21.118Z [info]: DELETE /api/product/8 200 - 87ms
+2026-10-07T16:11:21.320Z [info]: GET /api/product 200 - 127ms
+2026-10-07T16:11:26.946Z [info]: DELETE /api/product/9 200 - 15ms
+2026-10-07T16:11:27.077Z [info]: GET /api/product 200 - 18ms
+2026-10-07T16:11:29.707Z [info]: GET /api/product 200 - 21ms
+2026-10-07T16:11:29.944Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-07T16:11:29.947Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:11:29.957Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T16:11:29.966Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-07T16:11:36.867Z [info]: GET /api/category 304 - 5ms
+2026-10-07T16:11:36.871Z [info]: GET /api/color 304 - 7ms
+2026-10-07T16:11:36.874Z [info]: GET /api/size 304 - 2ms
+2026-10-07T16:11:36.877Z [info]: GET /api/category 304 - 4ms
+2026-10-07T16:11:36.881Z [info]: GET /api/color 304 - 5ms
+2026-10-07T16:11:36.886Z [info]: GET /api/size 304 - 2ms
+2026-10-07T16:11:40.589Z [info]: GET /api/category 200 - 2ms
+2026-10-07T16:11:41.012Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-07T16:11:41.037Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:11:41.090Z [info]: GET /api/auth/me 304 - 1ms
+2026-10-07T16:11:41.101Z [info]: GET /api/auth/me 304 - 1ms
+2026-10-07T16:11:50.821Z [info]: GET /api/product 200 - 174ms
+2026-10-07T16:12:37.337Z [info]: GET /api/category 200 - 235ms
+2026-10-07T16:12:37.938Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-07T16:12:37.958Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T16:12:37.971Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:12:38.033Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-07T16:12:40.221Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T16:12:40.284Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:12:40.309Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:12:40.318Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:12:40.341Z [info]: GET /api/category 304 - 2ms
+2026-10-07T16:12:40.350Z [info]: GET /api/size 304 - 6ms
+2026-10-07T16:12:40.367Z [info]: GET /api/size 304 - 2ms
+2026-10-07T16:12:40.372Z [info]: GET /api/category 304 - 1ms
+2026-10-07T16:12:40.516Z [info]: GET /api/color 304 - 176ms
+2026-10-07T16:12:40.590Z [info]: GET /api/color 304 - 1ms
+2026-10-07T16:13:13.554Z [info]: GET /api/users 200 - 608ms
+2026-10-07T16:13:13.634Z [info]: GET /api/auth/me 304 - 253ms
+2026-10-07T16:13:13.637Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:13:13.655Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:13:13.665Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:13:17.436Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-07T16:13:17.453Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:13:17.540Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:13:17.565Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:13:47.263Z [info]: POST /api/users 201 - 134ms
+2026-10-07T16:13:47.332Z [info]: GET /api/users 200 - 3ms
+2026-10-07T16:14:40.845Z [info]: GET /api/product/4 200 - 361ms
+2026-10-07T16:19:56.364Z [info]: GET /api/auth/me 304 - 73ms
+2026-10-07T16:19:56.368Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-07T16:23:53.829Z [info]: GET /api/product 200 - 133ms
+2026-10-07T16:39:43.112Z [info]: GET /api/product 200 - 787ms
+2026-10-07T16:41:51.666Z [info]: GET /api/product/3 200 - 274ms
+2026-10-08T12:18:53.078Z [info]: Server running on http://localhost:5000
+2026-10-08T12:19:20.939Z [info]: GET /api/product 200 - 545ms
+2026-10-08T12:19:50.233Z [info]: GET /api/product 200 - 218ms
+2026-10-08T12:56:28.615Z [info]: GET /api/product 200 - 193ms
+2026-10-08T12:56:28.669Z [info]: GET /api/product 200 - 330ms
+2026-10-08T12:58:22.846Z [info]: GET /api/product 200 - 180ms
+2026-10-08T13:01:46.544Z [info]: GET /api/product 200 - 274ms
+2026-10-08T13:02:00.448Z [info]: GET /api/product 200 - 233ms
+2026-10-08T13:04:55.458Z [info]: GET /api/product 200 - 285ms
+2026-10-08T13:19:50.534Z [info]: GET /api/product 200 - 179ms
+2026-10-08T13:21:30.717Z [info]: GET /api/product 200 - 299ms
+2026-10-08T13:26:03.128Z [info]: GET /api/product 200 - 306ms
+2026-10-08T13:26:04.565Z [info]: GET /api/product 200 - 17ms
+2026-10-08T13:31:07.090Z [info]: GET /api/product 200 - 279ms
+2026-10-08T13:31:47.095Z [info]: GET /api/product 200 - 183ms
+2026-10-08T13:36:53.863Z [info]: GET /api/product 200 - 171ms
+2026-10-08T13:37:02.595Z [info]: GET /api/product 200 - 18ms
+2026-10-08T13:37:37.230Z [info]: GET /api/product 200 - 271ms
+2026-10-08T13:37:50.063Z [info]: GET /api/product 200 - 380ms
+2026-10-08T13:38:31.647Z [info]: GET /api/product 200 - 153ms
+2026-10-08T13:38:40.232Z [info]: GET /api/product 200 - 15ms
+2026-10-08T13:38:41.164Z [info]: GET /api/product 200 - 99ms
+2026-10-08T13:38:54.849Z [info]: GET /api/product 200 - 258ms
+2026-10-08T13:39:14.420Z [info]: GET /api/product 200 - 220ms
+2026-10-08T13:39:24.188Z [info]: GET /api/product 200 - 57ms
+2026-10-08T13:39:34.639Z [info]: GET /api/product 200 - 335ms
+2026-10-08T13:39:55.283Z [info]: GET /api/product 200 - 135ms
+2026-10-08T13:40:16.993Z [info]: GET /api/product 200 - 145ms
+2026-10-08T13:40:28.343Z [info]: GET /api/product 200 - 236ms
+2026-10-08T13:40:34.977Z [info]: GET /api/product 200 - 13ms
+2026-10-08T13:40:43.728Z [info]: GET /api/product 200 - 106ms
+2026-10-08T13:52:39.843Z [info]: GET /api/product 200 - 300ms
+2026-10-08T13:53:15.698Z [info]: GET /api/product 200 - 303ms
+2026-10-08T13:53:24.991Z [info]: GET /api/product 200 - 17ms
+2026-10-08T13:54:29.459Z [info]: GET /api/product 200 - 327ms
+2026-10-08T13:54:31.362Z [info]: GET /api/product 200 - 17ms
+2026-10-08T13:57:57.083Z [info]: GET /api/product 200 - 356ms
+2026-10-08T13:58:24.630Z [info]: GET /api/product 200 - 249ms
+2026-10-08T14:01:33.050Z [info]: GET /api/product 200 - 120ms
+2026-10-08T14:01:35.675Z [info]: GET /api/product 200 - 64ms
+2026-10-08T14:02:58.579Z [info]: GET /api/product 200 - 193ms
+2026-10-08T14:03:24.465Z [info]: GET /api/product 200 - 137ms
+2026-10-08T14:06:28.974Z [info]: GET /api/product 200 - 167ms
+2026-10-08T14:06:39.874Z [info]: GET /api/product 200 - 117ms
+2026-10-08T14:06:42.822Z [info]: GET /api/product 200 - 14ms
+2026-10-08T14:11:29.613Z [info]: GET /api/product 200 - 192ms
+2026-10-08T14:11:38.023Z [info]: GET /api/product 200 - 81ms
+2026-10-08T14:11:49.156Z [info]: GET /api/product 200 - 529ms
+2026-10-08T14:12:02.240Z [info]: GET /api/product 200 - 207ms
+2026-10-08T14:16:39.347Z [info]: GET /api/product 200 - 325ms
+2026-10-08T14:16:55.065Z [info]: GET /api/product 200 - 133ms
+2026-10-08T14:16:58.228Z [info]: GET /api/product 200 - 53ms
+2026-10-08T14:17:07.442Z [info]: GET /api/product 200 - 16ms
+2026-10-08T14:22:58.415Z [info]: GET /api/product 200 - 237ms
+2026-10-08T14:23:25.882Z [info]: GET /api/product 200 - 204ms
+2026-10-08T14:23:59.220Z [info]: GET /api/product 200 - 253ms
+2026-10-08T14:24:06.032Z [info]: GET /api/product 200 - 18ms
+2026-10-08T14:24:07.258Z [info]: GET /api/product 200 - 57ms
+2026-10-08T14:26:16.137Z [info]: GET /api/product 200 - 552ms
+2026-10-08T14:26:18.499Z [info]: GET /api/product 200 - 19ms
+2026-10-08T14:26:26.450Z [info]: GET /api/product 200 - 51ms
+2026-10-08T14:29:32.025Z [info]: GET /api/product 200 - 282ms
+2026-10-08T14:29:34.740Z [info]: GET /api/product 200 - 16ms
+2026-10-08T14:29:48.140Z [info]: GET /api/product 200 - 145ms
+2026-10-08T14:29:48.420Z [info]: GET /api/product 200 - 67ms
+2026-10-08T14:29:57.516Z [info]: GET /api/product 200 - 38ms
+2026-10-08T14:29:57.696Z [info]: GET /api/product 200 - 6ms
+2026-10-08T14:30:03.527Z [info]: GET /api/product 200 - 15ms
+2026-10-08T14:30:03.660Z [info]: GET /api/product 200 - 19ms
+2026-10-08T14:30:12.338Z [info]: GET /api/product 200 - 61ms
+2026-10-08T14:35:10.487Z [info]: GET /api/product 200 - 207ms
+2026-10-08T14:35:13.064Z [info]: GET /api/product 200 - 17ms
+2026-10-08T17:52:29.058Z [info]: GET /api/product 200 - 458ms
+2026-10-08T17:52:51.015Z [info]: GET /api/product 200 - 480ms
+2026-10-08T17:53:02.932Z [info]: GET /api/product 200 - 313ms
+2026-10-08T18:08:10.559Z [info]: GET /api/product 200 - 122ms
+2026-10-08T18:22:17.620Z [info]: GET /api/product 200 - 201ms
+2026-10-08T18:23:36.051Z [info]: GET /api/product 200 - 215ms
+2026-10-08T18:23:47.451Z [info]: GET /api/product 200 - 231ms
+2026-10-08T18:23:54.081Z [info]: GET /api/product 200 - 20ms
+2026-10-08T18:24:17.013Z [info]: GET /api/product 200 - 200ms
+2026-10-08T18:24:48.226Z [info]: GET /api/product 200 - 267ms
+2026-10-08T18:24:58.991Z [info]: GET /api/product 200 - 397ms
+2026-10-08T18:25:11.109Z [info]: GET /api/product 200 - 229ms
+2026-10-08T18:25:24.033Z [info]: GET /api/product 200 - 277ms
+2026-10-08T18:26:08.541Z [info]: GET /api/product 200 - 144ms
+2026-10-08T18:26:24.648Z [info]: GET /api/product 200 - 240ms
+2026-10-08T18:26:58.338Z [info]: GET /api/product 200 - 242ms
+2026-10-08T18:27:32.252Z [info]: GET /api/product 200 - 300ms
+2026-10-08T18:28:22.305Z [info]: GET /api/product 200 - 169ms
+2026-10-08T18:28:42.140Z [info]: GET /api/product 200 - 184ms
+2026-10-08T18:28:55.388Z [info]: GET /api/product 200 - 172ms
+2026-10-08T18:29:19.002Z [info]: GET /api/product 200 - 151ms
+2026-10-08T18:29:29.801Z [info]: GET /api/product 200 - 217ms
+2026-10-08T18:30:16.430Z [info]: GET /api/product 200 - 235ms
+2026-10-08T18:32:28.075Z [info]: GET /api/product 200 - 468ms
+2026-10-08T18:32:34.143Z [info]: GET /api/product 200 - 15ms
+2026-10-08T18:34:47.206Z [info]: GET /api/product 200 - 289ms
+2026-10-08T18:35:09.472Z [info]: GET /api/product 200 - 131ms
+2026-10-08T18:35:13.708Z [info]: GET /api/product 200 - 90ms
+2026-10-08T18:35:20.103Z [info]: GET /api/product 200 - 82ms
+2026-10-08T18:35:55.930Z [info]: GET /api/product 200 - 424ms
+2026-10-08T18:36:19.964Z [info]: GET /api/product 200 - 209ms
+2026-10-08T18:36:24.479Z [info]: GET /api/product 200 - 68ms
+2026-10-08T18:36:44.683Z [info]: GET /api/product 200 - 231ms
+2026-10-08T18:36:49.722Z [info]: GET /api/product 200 - 17ms
+2026-10-08T18:38:02.294Z [info]: GET /api/product 200 - 778ms
+2026-10-08T18:38:32.090Z [info]: GET /api/product 200 - 344ms
+2026-10-08T18:38:45.194Z [info]: GET /api/product 200 - 269ms
+2026-10-08T18:39:05.741Z [info]: GET /api/product 200 - 383ms
+2026-10-08T18:39:54.753Z [info]: GET /api/product 200 - 284ms
+2026-10-08T18:40:00.598Z [info]: GET /api/product 200 - 17ms
+2026-10-08T18:46:16.061Z [info]: GET /api/product 200 - 221ms
+2026-10-08T18:47:09.363Z [info]: GET /api/product 200 - 241ms
+2026-10-08T18:49:30.226Z [info]: GET /api/product 200 - 232ms
+2026-10-08T18:49:54.834Z [info]: GET /api/product 200 - 208ms
+2026-10-08T18:52:26.921Z [info]: GET /api/product 200 - 125ms
+2026-10-08T18:52:35.037Z [info]: GET /api/product 200 - 63ms
+2026-10-08T18:54:00.272Z [info]: GET /api/product 200 - 238ms
+2026-10-08T18:54:08.333Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T18:54:08.335Z [info]: GET /api/product/product-2.jpg 500 - 58ms
+2026-10-08T18:54:08.339Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T18:54:08.341Z [info]: GET /api/product/product-3.jpg 500 - 6ms
+2026-10-08T18:54:08.350Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T18:54:08.350Z [info]: GET /api/product/product-4.jpg 500 - 7ms
+2026-10-08T18:54:08.360Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T18:54:08.361Z [info]: GET /api/product/product-1.jpg 500 - 8ms
+2026-10-08T18:54:36.698Z [info]: GET /api/product 200 - 230ms
+2026-10-08T18:55:09.467Z [info]: GET /api/product 200 - 191ms
+2026-10-08T19:00:56.048Z [info]: GET /api/product 200 - 226ms
+2026-10-08T19:00:58.728Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T19:00:58.742Z [info]: GET /api/product/product-1.jpg 500 - 18ms
+2026-10-08T19:00:59.590Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T19:00:59.594Z [info]: GET /api/product/product-3.jpg 500 - 7ms
+2026-10-08T19:01:00.496Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T19:01:00.513Z [info]: GET /api/product/product-4.jpg 500 - 34ms
+2026-10-08T19:01:00.517Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T19:01:00.518Z [info]: GET /api/product/product-2.jpg 500 - 4ms
+2026-10-08T19:01:00.524Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T19:01:00.525Z [info]: GET /api/product/product-2.jpg 500 - 6ms
+2026-10-08T19:01:00.544Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T19:01:00.545Z [info]: GET /api/product/product-1.jpg 500 - 4ms
+2026-10-08T19:01:00.843Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T19:01:00.845Z [info]: GET /api/product/product-3.jpg 500 - 7ms
+2026-10-08T19:01:01.085Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-08T19:01:01.096Z [info]: GET /api/product/product-4.jpg 500 - 14ms
+2026-10-09T09:24:04.665Z [info]: GET /api/product 200 - 312ms
+2026-10-09T09:24:05.800Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:24:05.802Z [info]: GET /api/product/product-1.jpg 500 - 12ms
+2026-10-09T09:24:06.245Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:24:06.250Z [info]: GET /api/product/product-1.jpg 500 - 9ms
+2026-10-09T09:24:06.960Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:24:06.961Z [info]: GET /api/product/product-3.jpg 500 - 5ms
+2026-10-09T09:24:07.012Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:24:07.014Z [info]: GET /api/product/product-2.jpg 500 - 5ms
+2026-10-09T09:24:07.568Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:24:07.592Z [info]: GET /api/product/product-4.jpg 500 - 27ms
+2026-10-09T09:24:07.598Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:24:07.602Z [info]: GET /api/product/product-2.jpg 500 - 9ms
+2026-10-09T09:24:08.528Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:24:08.557Z [info]: GET /api/product/product-3.jpg 500 - 33ms
+2026-10-09T09:24:08.595Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:24:08.603Z [info]: GET /api/product/product-4.jpg 500 - 11ms
+2026-10-09T09:25:04.320Z [info]: GET /api/product/4 200 - 206ms
+2026-10-09T09:25:10.846Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:10.848Z [info]: GET /api/product/product-1.jpg 500 - 7ms
+2026-10-09T09:25:10.852Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:10.853Z [info]: GET /api/product/product-1.jpg 500 - 4ms
+2026-10-09T09:25:11.106Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:11.107Z [info]: GET /api/product/product-4.jpg 500 - 4ms
+2026-10-09T09:25:11.158Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:11.163Z [info]: GET /api/product/product-4.jpg 500 - 8ms
+2026-10-09T09:25:11.432Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:11.438Z [info]: GET /api/product/product-3.jpg 500 - 10ms
+2026-10-09T09:25:11.444Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:11.449Z [info]: GET /api/product/product-2.jpg 500 - 9ms
+2026-10-09T09:25:11.733Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:11.733Z [info]: GET /api/product/product-2.jpg 500 - 3ms
+2026-10-09T09:25:11.862Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:11.863Z [info]: GET /api/product/product-3.jpg 500 - 5ms
+2026-10-09T09:25:12.154Z [info]: GET /api/product/4 200 - 16ms
+2026-10-09T09:25:15.045Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:15.046Z [info]: GET /api/product/product-1.jpg 500 - 4ms
+2026-10-09T09:25:15.124Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:15.159Z [info]: GET /api/product/product-1.jpg 500 - 38ms
+2026-10-09T09:25:15.584Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:15.585Z [info]: GET /api/product/product-4.jpg 500 - 4ms
+2026-10-09T09:25:15.631Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:15.631Z [info]: GET /api/product/product-3.jpg 500 - 4ms
+2026-10-09T09:25:15.918Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:15.919Z [info]: GET /api/product/product-2.jpg 500 - 4ms
+2026-10-09T09:25:15.923Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:15.925Z [info]: GET /api/product/product-4.jpg 500 - 5ms
+2026-10-09T09:25:16.199Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:16.204Z [info]: GET /api/product/product-2.jpg 500 - 8ms
+2026-10-09T09:25:16.257Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T09:25:16.257Z [info]: GET /api/product/product-3.jpg 500 - 3ms
+2026-10-09T09:36:27.279Z [info]: GET /api/product 200 - 158ms
+2026-10-09T09:36:32.005Z [info]: GET /api/product 200 - 17ms
+2026-10-09T09:37:13.735Z [info]: GET /api/product 200 - 310ms
+2026-10-09T09:37:31.110Z [info]: GET /api/product 200 - 200ms
+2026-10-09T09:37:55.996Z [info]: GET /api/product 200 - 126ms
+2026-10-09T15:28:15.659Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-09T15:28:15.671Z [info]: GET /api/product/Aliquid%20excepteur%20mi 500 - 37ms
+2026-10-09T15:28:31.271Z [info]: GET /api/product 200 - 548ms
+2026-10-09T15:42:13.985Z [info]: GET /api/auth/me 401 - 11ms
+2026-10-09T15:42:13.993Z [info]: GET /api/auth/me 401 - 4ms
+2026-10-09T15:42:13.999Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-09T15:42:14.002Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-09T15:42:14.848Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-09T15:42:14.861Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-09T15:42:22.022Z [info]: POST /api/auth/login 200 - 532ms
+2026-10-09T15:42:22.335Z [info]: GET /api/auth/me 304 - 18ms
+2026-10-09T15:42:22.343Z [info]: GET /api/auth/me 304 - 7ms
+2026-10-09T15:42:22.349Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-09T15:42:22.356Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-09T15:42:27.511Z [info]: GET /api/category 200 - 19ms
+2026-10-09T15:42:28.485Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-09T15:42:28.490Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-09T15:42:28.494Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-09T15:42:28.502Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-09T16:03:48.526Z [info]: Server running on http://localhost:5000
+2026-10-09T16:04:16.479Z [info]: GET /api/category 200 - 154ms
+2026-10-09T16:04:16.605Z [info]: GET /api/product 200 - 608ms
+2026-10-09T16:05:04.346Z [info]: GET /api/category 200 - 97ms
+2026-10-09T16:05:04.606Z [info]: GET /api/category 200 - 3ms
+2026-10-09T16:05:05.896Z [error]: User not found
+2026-10-09T16:05:05.898Z [info]: GET /api/auth/me 404 - 23ms
+2026-10-09T16:05:05.913Z [error]: User not found
+2026-10-09T16:05:05.915Z [info]: GET /api/auth/me 404 - 6ms
+2026-10-09T16:05:05.924Z [error]: User not found
+2026-10-09T16:05:05.925Z [info]: GET /api/auth/me 404 - 5ms
+2026-10-09T16:05:05.931Z [error]: User not found
+2026-10-09T16:05:05.932Z [info]: GET /api/auth/me 404 - 4ms
+2026-10-09T16:05:06.432Z [error]: User not found
+2026-10-09T16:05:06.434Z [info]: GET /api/auth/me 404 - 5ms
+2026-10-09T16:05:06.439Z [error]: User not found
+2026-10-09T16:05:06.441Z [info]: GET /api/auth/me 404 - 6ms
+2026-10-09T16:05:40.715Z [info]: POST /api/auth/login 200 - 226ms
+2026-10-09T16:05:41.120Z [info]: GET /api/auth/me 200 - 5ms
+2026-10-09T16:05:41.127Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-09T16:05:41.136Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-09T16:05:41.175Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-09T16:05:44.367Z [info]: GET /api/category 200 - 9ms
+2026-10-09T16:05:44.973Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-09T16:05:44.980Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T16:05:44.992Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T16:05:45.004Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-09T16:11:39.797Z [info]: GET /api/category 200 - 153ms
+2026-10-09T16:11:39.877Z [info]: GET /api/product 200 - 235ms
+2026-10-09T16:12:18.441Z [info]: Server running on http://localhost:5000
+2026-10-09T16:14:08.811Z [info]: Server running on http://localhost:5000
+2026-10-09T16:14:41.056Z [info]: GET /api/category 200 - 103ms
+2026-10-09T16:14:41.145Z [info]: GET /api/product 200 - 450ms
+2026-10-09T16:14:45.698Z [info]: GET /api/category 200 - 9ms
+2026-10-09T16:14:46.243Z [info]: GET /api/auth/me 304 - 21ms
+2026-10-09T16:14:46.260Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-09T16:14:46.267Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-09T16:14:46.276Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-09T16:15:45.546Z [info]: GET /api/category 200 - 155ms
+2026-10-09T16:15:45.783Z [info]: GET /api/product 200 - 395ms
+2026-10-09T16:17:16.621Z [info]: GET /api/category 200 - 134ms
+2026-10-09T16:17:16.939Z [info]: GET /api/product 200 - 454ms
+2026-10-09T17:22:29.071Z [info]: GET /api/category 200 - 154ms
+2026-10-09T17:22:29.307Z [info]: GET /api/product 200 - 392ms
+2026-10-09T18:20:02.076Z [info]: GET /api/category 200 - 102ms
+2026-10-09T18:20:02.206Z [info]: GET /api/product 200 - 233ms
+2026-10-09T18:22:42.370Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-09T18:22:42.411Z [info]: GET /api/auth/me 401 - 2ms
+2026-10-09T18:22:42.514Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-09T18:22:42.580Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-09T18:22:42.732Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-09T18:22:42.737Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-09T18:22:53.892Z [info]: POST /api/auth/login 200 - 228ms
+2026-10-09T18:22:54.093Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-09T18:22:54.100Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-09T18:22:54.105Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-09T18:22:54.109Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-09T18:22:57.700Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:22:57.708Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-09T18:22:57.712Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:22:57.716Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:29:27.642Z [info]: GET /api/category 200 - 87ms
+2026-10-09T18:29:27.728Z [info]: GET /api/product 200 - 174ms
+2026-10-09T18:29:31.902Z [info]: GET /api/category 200 - 2ms
+2026-10-09T18:29:31.918Z [info]: GET /api/product 200 - 19ms
+2026-10-09T18:29:37.542Z [info]: GET /api/auth/me 200 - 6ms
+2026-10-09T18:29:37.549Z [info]: GET /api/auth/me 200 - 9ms
+2026-10-09T18:29:37.556Z [info]: GET /api/auth/me 200 - 4ms
+2026-10-09T18:29:37.561Z [info]: GET /api/auth/me 200 - 8ms
+2026-10-09T18:30:04.454Z [info]: POST /api/category 201 - 111ms
+2026-10-09T18:30:13.047Z [info]: GET /api/category 200 - 4ms
+2026-10-09T18:30:13.814Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-09T18:30:13.821Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-09T18:30:13.828Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:30:13.832Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:30:35.950Z [info]: GET /api/category 200 - 104ms
+2026-10-09T18:30:36.317Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-09T18:30:36.329Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:30:36.336Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-09T18:30:36.345Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:30:39.026Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:30:39.033Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:30:39.037Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:30:39.044Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:30:57.299Z [info]: GET /api/category 200 - 123ms
+2026-10-09T18:30:57.536Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-09T18:30:57.543Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-09T18:30:57.576Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-09T18:30:57.589Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:31:08.076Z [info]: GET /api/category/5 200 - 70ms
+2026-10-09T18:31:08.079Z [info]: GET /api/category/5 304 - 2ms
+2026-10-09T18:31:17.985Z [info]: GET /api/category/5 304 - 4ms
+2026-10-09T18:31:17.988Z [info]: GET /api/category/5 304 - 2ms
+2026-10-09T18:31:23.384Z [info]: PATCH /api/category/5 200 - 27ms
+2026-10-09T18:31:27.447Z [info]: GET /api/category 200 - 1ms
+2026-10-09T18:31:27.998Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-09T18:31:28.013Z [info]: GET /api/auth/me 304 - 1ms
+2026-10-09T18:31:28.027Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:31:28.037Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-09T18:31:36.239Z [info]: GET /api/category/5 200 - 2ms
+2026-10-09T18:31:36.246Z [info]: GET /api/category/5 304 - 3ms
+2026-10-09T18:31:41.530Z [info]: GET /api/category/8 200 - 2ms
+2026-10-09T18:31:41.545Z [info]: GET /api/category/8 304 - 1ms
+2026-10-09T18:31:50.950Z [info]: PATCH /api/category/8 200 - 4ms
+2026-10-09T18:31:53.407Z [info]: GET /api/category 200 - 1ms
+2026-10-09T18:31:53.883Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-09T18:31:53.891Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-09T18:31:53.903Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:31:53.906Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:31:58.076Z [info]: GET /api/category/8 200 - 2ms
+2026-10-09T18:31:58.085Z [info]: GET /api/category/8 304 - 2ms
+2026-10-09T18:32:08.735Z [info]: PATCH /api/category/8 200 - 156ms
+2026-10-09T18:32:11.907Z [info]: GET /api/category 200 - 1ms
+2026-10-09T18:32:12.371Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-09T18:32:12.405Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-09T18:32:12.414Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:32:12.421Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:34:10.183Z [info]: GET /api/auth/me 304 - 89ms
+2026-10-09T18:34:10.186Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:34:10.190Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:34:10.203Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:34:25.433Z [info]: POST /api/category 201 - 59ms
+2026-10-09T18:34:31.059Z [info]: GET /api/category 200 - 5ms
+2026-10-09T18:34:31.448Z [info]: GET /api/auth/me 304 - 7ms
+2026-10-09T18:34:31.473Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:34:31.515Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:34:31.520Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:35:07.662Z [info]: GET /api/auth/me 304 - 524ms
+2026-10-09T18:35:07.666Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:35:07.675Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:35:07.728Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-09T18:35:22.912Z [info]: POST /api/category 201 - 166ms
+2026-10-25T06:59:37.715Z [info]: Server running on http://localhost:5000
+2026-10-25T07:00:08.570Z [info]: GET /api/category 200 - 1681ms
+2026-10-25T07:00:08.758Z [info]: GET /api/product 200 - 2074ms
+2026-10-25T07:00:14.161Z [info]: GET /api/category 200 - 9ms
+2026-10-25T07:00:14.172Z [info]: GET /api/product 200 - 22ms
+2026-10-25T08:06:21.658Z [info]: Server running on http://localhost:5000
+2026-10-25T08:07:19.510Z [info]: GET /api/category 200 - 1281ms
+2026-10-25T08:07:19.636Z [info]: GET /api/product 200 - 1640ms
+2026-10-25T09:05:22.887Z [info]: GET /api/category 200 - 125ms
+2026-10-25T09:05:22.977Z [info]: GET /api/product 200 - 217ms
+2026-10-25T09:05:56.715Z [info]: GET /api/category 200 - 120ms
+2026-10-25T09:05:56.816Z [info]: GET /api/product 200 - 224ms
+2026-10-25T09:06:01.611Z [info]: GET /api/product 200 - 66ms
+2026-10-25T09:06:01.614Z [info]: GET /api/category 200 - 67ms
+2026-10-25T09:12:51.519Z [info]: GET /api/category 200 - 62ms
+2026-10-25T09:12:51.575Z [info]: GET /api/product 200 - 119ms
+2026-10-25T09:16:55.754Z [info]: GET /api/category 200 - 85ms
+2026-10-25T09:16:55.897Z [info]: GET /api/product 200 - 229ms
+2026-10-25T09:18:10.398Z [info]: GET /api/category 200 - 77ms
+2026-10-25T09:18:10.466Z [info]: GET /api/product 200 - 146ms
+2026-10-25T09:18:12.659Z [info]: GET /api/category 200 - 7ms
+2026-10-25T09:18:12.665Z [info]: GET /api/product 200 - 14ms
+2026-10-25T09:18:34.354Z [info]: GET /api/category 200 - 76ms
+2026-10-25T09:18:34.430Z [info]: GET /api/product 200 - 153ms
+2026-10-25T09:19:27.067Z [info]: GET /api/category 200 - 96ms
+2026-10-25T09:19:27.160Z [info]: GET /api/product 200 - 191ms
+2026-10-25T09:19:31.952Z [info]: GET /api/category 200 - 7ms
+2026-10-25T09:19:32.010Z [info]: GET /api/product 200 - 66ms
+2026-10-25T09:19:34.398Z [info]: GET /api/category 200 - 3ms
+2026-10-25T09:19:34.427Z [info]: GET /api/product 200 - 33ms
+2026-10-25T09:19:46.937Z [info]: GET /api/category 200 - 52ms
+2026-10-25T09:19:47.194Z [info]: GET /api/product 200 - 310ms
+2026-10-25T09:20:34.155Z [info]: GET /api/category 200 - 111ms
+2026-10-25T09:20:34.218Z [info]: GET /api/product 200 - 175ms
+2026-10-25T09:20:44.705Z [info]: GET /api/category 200 - 112ms
+2026-10-25T09:20:44.763Z [info]: GET /api/product 200 - 171ms
+2026-10-25T09:20:54.212Z [info]: GET /api/category 200 - 8ms
+2026-10-25T09:20:54.224Z [info]: GET /api/product 200 - 21ms
+2026-10-25T09:20:59.072Z [info]: GET /api/category 200 - 1ms
+2026-10-25T09:20:59.093Z [info]: GET /api/product 200 - 23ms
+2026-10-25T09:21:50.519Z [info]: GET /api/category 200 - 81ms
+2026-10-25T09:21:50.588Z [info]: GET /api/product 200 - 151ms
+2026-10-25T15:30:12.779Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-25T15:30:12.780Z [info]: GET /api/product/basic-cotton-t-shirt 500 - 80ms
+2026-10-25T15:34:07.543Z [info]: GET /api/product/10 200 - 233ms
+2026-10-25T15:34:13.609Z [error]: 
+Invalid `prisma.product.findFirst()` invocation in
+C:\Users\uanam\OneDrive\Desktop\letsLearn-ecommerce\server\src\services\product.service.ts:121:40
+
+  118 }
+  119 
+  120 export async function getProductById(id: number) {
+→ 121   const product = await prisma.product.findFirst({
+          where: {
+            deleted_at: null,
+        +   id: {
+        +     equals: Int | IntFieldRefInput,
+        +     in: Int[] | ListIntFieldRefInput,
+        +     notIn: Int[] | ListIntFieldRefInput,
+        +     lt: Int | IntFieldRefInput,
+        +     lte: Int | IntFieldRefInput,
+        +     gt: Int | IntFieldRefInput,
+        +     gte: Int | IntFieldRefInput,
+        +     not: Int | NestedIntFilter
+        +   }
+          },
+          include: {
+            category: true,
+            images: {
+              orderBy: {
+                position: "asc"
+              }
+            },
+            variants: {
+              include: {
+                color: true,
+                size: true,
+                images: {
+                  orderBy: {
+                    position: "asc"
+                  }
+                }
+              }
+            }
+          }
+        })
+
+Argument `id` is missing.
+2026-10-25T15:34:13.610Z [info]: GET /api/product/basic-cotton-t-shirt 500 - 5ms
+2026-10-25T15:34:16.577Z [info]: GET /api/category 200 - 6ms
+2026-10-25T15:34:16.740Z [info]: GET /api/product 200 - 174ms
+2026-10-25T15:34:18.244Z [info]: GET /api/category 200 - 6ms
+2026-10-25T15:34:18.256Z [info]: GET /api/product 200 - 19ms
+2026-10-25T15:42:49.733Z [info]: GET /api/category 200 - 110ms
+2026-10-25T15:42:49.797Z [info]: GET /api/product 200 - 176ms
+2026-10-25T15:51:02.026Z [info]: GET /api/category 200 - 117ms
+2026-10-25T15:51:02.211Z [info]: GET /api/product 200 - 303ms
+2026-10-25T15:52:03.468Z [info]: GET /api/category 200 - 90ms
+2026-10-25T15:52:03.569Z [info]: GET /api/product 200 - 192ms
+2026-10-25T15:53:10.748Z [info]: GET /api/category 200 - 62ms
+2026-10-25T15:53:10.957Z [info]: GET /api/product 200 - 272ms
+2026-10-25T15:53:13.259Z [info]: GET /api/category 200 - 7ms
+2026-10-25T15:53:13.302Z [info]: GET /api/product 200 - 51ms
+2026-10-25T15:53:42.048Z [info]: GET /api/category 200 - 133ms
+2026-10-25T15:53:42.340Z [info]: GET /api/product 200 - 426ms
+2026-10-25T15:54:09.229Z [info]: GET /api/category 200 - 70ms
+2026-10-25T15:54:09.439Z [info]: GET /api/product 200 - 281ms
+2026-10-25T15:57:06.807Z [info]: GET /api/product 200 - 124ms
+2026-10-25T15:57:06.849Z [info]: GET /api/category 200 - 165ms
+2026-10-25T15:57:09.570Z [info]: GET /api/category 200 - 2ms
+2026-10-25T15:57:09.585Z [info]: GET /api/product 200 - 18ms
+2026-10-25T15:57:22.661Z [info]: GET /api/category 200 - 60ms
+2026-10-25T15:57:23.045Z [info]: GET /api/product 200 - 445ms
+2026-10-25T15:57:35.518Z [info]: GET /api/category 200 - 105ms
+2026-10-25T15:57:35.659Z [info]: GET /api/product 200 - 247ms
+2026-10-25T16:02:48.845Z [info]: GET /api/category 200 - 78ms
+2026-10-25T16:02:48.922Z [info]: GET /api/product 200 - 157ms
+2026-10-25T16:02:51.105Z [info]: GET /api/category 200 - 5ms
+2026-10-25T16:02:51.113Z [info]: GET /api/product 200 - 14ms
+2026-10-25T16:02:53.679Z [info]: GET /api/category 200 - 4ms
+2026-10-25T16:02:53.688Z [info]: GET /api/product 200 - 14ms
+2026-10-25T16:04:06.891Z [info]: GET /api/category 200 - 88ms
+2026-10-25T16:04:06.959Z [info]: GET /api/product 200 - 157ms
+2026-10-25T16:04:30.780Z [info]: GET /api/category 200 - 97ms
+2026-10-25T16:04:30.848Z [info]: GET /api/product 200 - 166ms
+2026-10-25T16:05:52.549Z [info]: GET /api/category 200 - 85ms
+2026-10-25T16:05:52.632Z [info]: GET /api/product 200 - 169ms
+2026-10-26T08:01:56.252Z [info]: Server running on http://localhost:5000
+2026-10-26T08:10:22.561Z [info]: GET /api/category 200 - 137ms
+2026-10-26T08:10:22.701Z [info]: GET /api/product 200 - 776ms
+2026-10-26T08:21:16.545Z [info]: GET /api/product 200 - 221ms
+2026-10-26T08:21:27.646Z [info]: GET /api/product/10 200 - 295ms
+2026-10-26T08:21:35.791Z [info]: GET /api/category 200 - 7ms
+2026-10-26T08:21:35.862Z [info]: GET /api/product 200 - 80ms
+2026-10-26T08:22:19.224Z [info]: GET /api/category 200 - 289ms
+2026-10-26T08:22:19.388Z [info]: GET /api/category 200 - 167ms
+2026-10-26T08:22:19.444Z [info]: GET /api/product 200 - 228ms
+2026-10-26T08:22:19.633Z [info]: GET /api/product 200 - 700ms
+2026-10-26T08:29:36.749Z [info]: GET /api/category 200 - 121ms
+2026-10-26T08:29:36.889Z [info]: GET /api/product 200 - 266ms
+2026-10-26T08:29:38.773Z [info]: GET /api/category 200 - 2ms
+2026-10-26T08:29:38.903Z [info]: GET /api/product 200 - 134ms
+2026-10-26T08:29:59.056Z [info]: GET /api/category 200 - 113ms
+2026-10-26T08:29:59.166Z [info]: GET /api/product 200 - 225ms
+2026-10-26T08:30:49.679Z [info]: GET /api/category 200 - 138ms
+2026-10-26T08:30:49.834Z [info]: GET /api/product 200 - 295ms
+2026-10-26T08:31:23.914Z [info]: GET /api/category 200 - 144ms
+2026-10-26T08:31:24.005Z [info]: GET /api/product 200 - 236ms
+2026-10-26T08:31:42.766Z [info]: GET /api/category 200 - 130ms
+2026-10-26T08:31:42.970Z [info]: GET /api/product 200 - 335ms
+2026-10-26T08:32:06.766Z [info]: GET /api/category 200 - 113ms
+2026-10-26T08:32:06.885Z [info]: GET /api/product 200 - 233ms
+2026-10-26T08:32:18.633Z [info]: GET /api/category 200 - 97ms
+2026-10-26T08:32:18.751Z [info]: GET /api/product 200 - 217ms
+2026-10-26T08:33:47.426Z [info]: GET /api/category 200 - 113ms
+2026-10-26T08:33:47.596Z [info]: GET /api/product 200 - 284ms
+2026-10-26T08:33:54.902Z [info]: GET /api/category 200 - 18ms
+2026-10-26T08:33:54.916Z [info]: GET /api/product 200 - 34ms
+2026-10-26T08:34:15.175Z [info]: GET /api/category 200 - 136ms
+2026-10-26T08:34:15.294Z [info]: GET /api/product 200 - 257ms
+2026-10-26T08:34:42.791Z [info]: GET /api/category 200 - 275ms
+2026-10-26T08:34:42.892Z [info]: GET /api/product 200 - 380ms
+2026-10-26T09:14:55.670Z [info]: GET /api/category 200 - 93ms
+2026-10-26T09:14:55.802Z [info]: GET /api/product 200 - 226ms
+2026-10-26T09:15:00.239Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-26T09:15:00.246Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-26T09:15:00.250Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-26T09:15:00.254Z [info]: GET /api/auth/me 401 - 1ms
+2026-10-26T09:15:00.661Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-26T09:15:00.703Z [info]: GET /api/auth/me 401 - 0ms
+2026-10-26T09:15:10.714Z [info]: POST /api/auth/login 200 - 351ms
+2026-10-26T09:15:11.000Z [info]: GET /api/auth/me 200 - 7ms
+2026-10-26T09:15:11.011Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-26T09:15:11.016Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-26T09:15:11.022Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-26T09:15:28.027Z [info]: GET /api/auth/me 304 - 5ms
+2026-10-26T09:15:28.040Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-26T09:15:28.048Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-26T09:15:28.077Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-26T09:15:28.141Z [info]: GET /api/product 200 - 415ms
+2026-10-26T09:15:36.261Z [info]: GET /api/category 200 - 7ms
+2026-10-26T09:15:36.999Z [info]: GET /api/auth/me 304 - 6ms
+2026-10-26T09:15:37.004Z [info]: GET /api/auth/me 304 - 4ms
+2026-10-26T09:15:37.009Z [info]: GET /api/auth/me 304 - 3ms
+2026-10-26T09:15:37.015Z [info]: GET /api/auth/me 304 - 2ms
+2026-10-26T09:17:18.759Z [info]: GET /api/category 200 - 74ms
+2026-10-26T09:17:18.837Z [info]: GET /api/product 200 - 153ms
+2026-10-26T09:18:10.472Z [info]: GET /api/category 200 - 248ms
+2026-10-26T09:18:10.537Z [info]: GET /api/product 200 - 315ms
+2026-10-26T09:18:12.199Z [info]: GET /api/category 200 - 2ms
+2026-10-26T09:18:12.220Z [info]: GET /api/product 200 - 25ms
+2026-10-26T09:18:52.853Z [info]: GET /api/category 200 - 95ms
+2026-10-26T09:18:52.953Z [info]: GET /api/product 200 - 196ms
+2026-10-26T09:19:02.616Z [info]: GET /api/category 200 - 8ms
+2026-10-26T09:19:02.694Z [info]: GET /api/product 200 - 87ms
+2026-10-26T09:20:01.744Z [info]: GET /api/category 200 - 83ms
+2026-10-26T09:20:01.829Z [info]: GET /api/product 200 - 169ms
+2026-10-26T09:20:04.437Z [info]: GET /api/category 200 - 6ms
+2026-10-26T09:20:04.453Z [info]: GET /api/product 200 - 24ms
+2026-10-26T09:21:46.412Z [info]: GET /api/category 200 - 118ms
+2026-10-26T09:21:46.491Z [info]: GET /api/product 200 - 198ms
+2026-10-26T09:21:51.272Z [info]: GET /api/category 200 - 8ms
+2026-10-26T09:21:51.288Z [info]: GET /api/product 200 - 25ms
+2026-10-26T09:23:37.794Z [info]: GET /api/category 200 - 85ms
+2026-10-26T09:23:37.882Z [info]: GET /api/product 200 - 174ms
+2026-10-26T09:23:40.597Z [info]: GET /api/category 200 - 3ms
+2026-10-26T09:23:40.618Z [info]: GET /api/product 200 - 25ms
+2026-10-26T09:23:54.985Z [info]: GET /api/category 200 - 111ms
+2026-10-26T09:23:55.093Z [info]: GET /api/product 200 - 220ms
+2026-10-26T09:23:57.037Z [info]: GET /api/category 200 - 2ms
+2026-10-26T09:23:57.058Z [info]: GET /api/product 200 - 24ms
+2026-10-26T09:24:07.029Z [info]: GET /api/product/10 200 - 32ms
+2026-10-26T09:24:09.886Z [info]: GET /api/product/13 200 - 5ms
+2026-10-26T15:47:42.838Z [info]: GET /api/category 200 - 95ms
+2026-10-26T15:47:42.955Z [info]: GET /api/product 200 - 214ms
+2026-10-26T15:47:45.321Z [info]: GET /api/category 200 - 6ms
+2026-10-26T15:47:45.334Z [info]: GET /api/product 200 - 20ms
+2026-10-26T15:47:53.308Z [info]: GET /api/category 200 - 2ms
+2026-10-26T15:47:53.323Z [info]: GET /api/product 200 - 18ms
+2026-10-26T15:49:30.325Z [info]: GET /api/category 200 - 99ms
+2026-10-26T15:49:30.424Z [info]: GET /api/product 200 - 199ms
+2026-10-26T15:49:47.292Z [info]: GET /api/category 200 - 89ms
+2026-10-26T15:49:47.402Z [info]: GET /api/product 200 - 200ms
+2026-10-26T15:50:09.714Z [info]: GET /api/category 200 - 88ms
+2026-10-26T15:50:09.947Z [info]: GET /api/product 200 - 322ms
+2026-10-26T15:54:02.757Z [info]: GET /api/category 200 - 95ms
+2026-10-26T15:54:03.084Z [info]: GET /api/product 200 - 423ms
+2026-10-26T15:54:37.643Z [info]: GET /api/category 200 - 126ms
+2026-10-26T15:54:37.915Z [info]: GET /api/product 200 - 401ms
+2026-10-26T15:55:00.090Z [info]: GET /api/category 200 - 67ms
+2026-10-26T15:55:00.166Z [info]: GET /api/product 200 - 144ms
+2026-10-26T15:56:30.686Z [info]: GET /api/category 200 - 186ms
+2026-10-26T15:56:30.911Z [info]: GET /api/product 200 - 413ms
+2026-10-26T15:56:35.753Z [info]: GET /api/category 200 - 6ms
+2026-10-26T15:56:35.762Z [info]: GET /api/product 200 - 16ms
+2026-10-26T15:57:54.466Z [info]: GET /api/category 200 - 83ms
+2026-10-26T15:57:54.537Z [info]: GET /api/product 200 - 155ms
+2026-10-26T15:57:59.015Z [info]: GET /api/category 200 - 2ms
+2026-10-26T15:57:59.030Z [info]: GET /api/product 200 - 17ms
+2026-10-26T15:58:40.192Z [info]: GET /api/category 200 - 62ms
+2026-10-26T15:58:40.259Z [info]: GET /api/product 200 - 130ms
+2026-10-26T15:59:01.252Z [info]: GET /api/category 200 - 122ms
+2026-10-26T15:59:01.330Z [info]: GET /api/product 200 - 201ms
+2026-10-26T15:59:16.139Z [info]: GET /api/category 200 - 70ms
+2026-10-26T15:59:16.255Z [info]: GET /api/product 200 - 187ms
+2026-10-26T16:13:30.345Z [info]: GET /api/product/10 200 - 130ms
+2026-10-26T16:13:49.211Z [info]: GET /api/category 200 - 64ms
+2026-10-26T16:13:49.286Z [info]: GET /api/product 200 - 140ms
+2026-10-26T16:16:25.280Z [info]: GET /api/category 200 - 74ms
+2026-10-26T16:16:25.355Z [info]: GET /api/product 200 - 150ms
+2026-10-26T16:17:43.600Z [info]: GET /api/category 200 - 82ms
+2026-10-26T16:17:43.696Z [info]: GET /api/product 200 - 179ms
+2026-10-26T16:17:49.177Z [info]: GET /api/category 200 - 7ms
+2026-10-26T16:17:49.193Z [info]: GET /api/product 200 - 25ms
+2026-10-26T16:18:37.699Z [info]: GET /api/category 200 - 61ms
+2026-10-26T16:18:37.765Z [info]: GET /api/product 200 - 128ms
+2026-10-26T16:18:53.386Z [info]: GET /api/category 200 - 151ms
+2026-10-26T16:18:53.462Z [info]: GET /api/product 200 - 230ms
+2026-10-26T16:19:43.622Z [info]: GET /api/category 200 - 76ms
+2026-10-26T16:19:43.700Z [info]: GET /api/product 200 - 156ms
+2026-10-26T16:19:58.477Z [info]: GET /api/category 200 - 103ms
+2026-10-26T16:19:58.568Z [info]: GET /api/product 200 - 195ms
+2026-10-26T16:20:05.839Z [info]: GET /api/category 200 - 6ms
+2026-10-26T16:20:05.907Z [info]: GET /api/product 200 - 75ms
+2026-10-26T16:20:18.160Z [info]: GET /api/category 200 - 96ms
+2026-10-26T16:20:18.242Z [info]: GET /api/product 200 - 181ms
+2026-10-26T16:23:15.768Z [info]: GET /api/category 200 - 66ms
+2026-10-26T16:23:15.833Z [info]: GET /api/product 200 - 133ms
+2026-10-26T16:23:44.546Z [info]: GET /api/category 200 - 73ms
+2026-10-26T16:23:44.613Z [info]: GET /api/product 200 - 141ms
+2026-10-26T16:24:08.632Z [info]: GET /api/category 200 - 60ms
+2026-10-26T16:24:08.910Z [info]: GET /api/product 200 - 339ms
+2026-10-26T16:24:44.163Z [info]: GET /api/category 200 - 84ms
+2026-10-26T16:24:44.231Z [info]: GET /api/product 200 - 153ms
+2026-10-26T16:25:04.679Z [info]: GET /api/category 200 - 76ms
+2026-10-26T16:25:04.770Z [info]: GET /api/product 200 - 168ms
+2026-10-26T16:25:08.125Z [info]: GET /api/category 200 - 6ms
+2026-10-26T16:25:08.140Z [info]: GET /api/product 200 - 22ms
+2026-10-26T16:25:10.897Z [info]: GET /api/category 200 - 3ms
+2026-10-26T16:25:10.916Z [info]: GET /api/product 200 - 22ms
+2026-10-26T16:25:19.661Z [info]: GET /api/category 200 - 1ms
+2026-10-26T16:25:19.675Z [info]: GET /api/product 200 - 16ms
+2026-10-26T16:25:39.952Z [info]: GET /api/category 200 - 83ms
+2026-10-26T16:25:40.043Z [info]: GET /api/product 200 - 175ms
+2026-10-26T16:25:44.466Z [info]: GET /api/category 200 - 11ms
+2026-10-26T16:25:44.479Z [info]: GET /api/product 200 - 25ms
+2026-10-26T16:26:07.391Z [info]: GET /api/category 200 - 82ms
+2026-10-26T16:26:07.486Z [info]: GET /api/product 200 - 178ms
+2026-10-26T16:30:07.641Z [info]: GET /api/category 200 - 83ms
+2026-10-26T16:30:07.715Z [info]: GET /api/product 200 - 158ms
+2026-10-26T16:34:35.035Z [info]: GET /api/category 200 - 157ms
+2026-10-26T16:34:35.115Z [info]: GET /api/category 200 - 91ms
+2026-10-26T16:34:35.143Z [info]: GET /api/product 200 - 266ms
+2026-10-26T16:34:35.198Z [info]: GET /api/product 200 - 175ms
+2026-10-26T16:36:32.478Z [info]: GET /api/category 200 - 111ms
+2026-10-26T16:36:32.552Z [info]: GET /api/product 200 - 187ms
+2026-10-26T16:36:32.690Z [info]: GET /api/category 200 - 1ms
+2026-10-26T16:36:32.717Z [info]: GET /api/product 200 - 28ms
+2026-10-26T16:36:57.272Z [info]: GET /api/category 200 - 93ms
+2026-10-26T16:36:57.365Z [info]: GET /api/product 200 - 187ms
+2026-10-26T16:37:02.386Z [info]: GET /api/category 200 - 7ms
+2026-10-26T16:37:02.400Z [info]: GET /api/product 200 - 21ms
+2026-10-26T16:37:14.815Z [info]: GET /api/category 200 - 86ms
+2026-10-26T16:37:14.988Z [info]: GET /api/product 200 - 260ms
+2026-10-26T16:37:18.916Z [info]: GET /api/category 200 - 2ms
+2026-10-26T16:37:18.933Z [info]: GET /api/product 200 - 29ms
+2026-10-26T16:37:59.632Z [info]: GET /api/category 200 - 99ms
+2026-10-26T16:37:59.740Z [info]: GET /api/product 200 - 207ms
+2026-10-26T16:38:21.869Z [info]: GET /api/category 200 - 81ms
+2026-10-26T16:38:22.008Z [info]: GET /api/product 200 - 221ms
+2026-10-26T16:38:35.998Z [info]: GET /api/category 200 - 82ms
+2026-10-26T16:38:36.087Z [info]: GET /api/product 200 - 173ms
+2026-10-26T16:46:25.281Z [info]: GET /api/category 200 - 195ms
+2026-10-26T16:46:25.396Z [info]: GET /api/product 200 - 311ms
+2026-10-26T16:46:27.450Z [info]: GET /api/category 200 - 2ms
+2026-10-26T16:46:27.468Z [info]: GET /api/product 200 - 20ms
+2026-10-26T17:01:35.618Z [info]: GET /api/category 200 - 123ms
+2026-10-26T17:01:35.710Z [info]: GET /api/product 200 - 216ms
+2026-10-26T17:01:38.585Z [info]: GET /api/category 200 - 6ms
+2026-10-26T17:01:38.594Z [info]: GET /api/product 200 - 16ms
+2026-10-26T17:01:43.749Z [info]: GET /api/category 200 - 3ms
+2026-10-26T17:01:43.759Z [info]: GET /api/product 200 - 14ms
+2026-10-26T17:03:04.841Z [info]: GET /api/category 200 - 86ms
+2026-10-26T17:03:05.034Z [info]: GET /api/product 200 - 280ms
+2026-10-26T17:03:27.037Z [info]: GET /api/category 200 - 124ms
+2026-10-26T17:03:27.319Z [info]: GET /api/product 200 - 407ms
+2026-10-26T17:03:38.390Z [info]: GET /api/category 200 - 154ms
+2026-10-26T17:03:38.453Z [info]: GET /api/product 200 - 218ms
+2026-10-26T17:03:47.621Z [info]: GET /api/category 200 - 6ms
+2026-10-26T17:03:47.629Z [info]: GET /api/product 200 - 15ms
+2026-10-26T17:03:53.321Z [info]: GET /api/category 200 - 2ms
+2026-10-26T17:03:53.346Z [info]: GET /api/product 200 - 28ms
+2026-10-26T17:05:31.050Z [info]: GET /api/product/10 200 - 130ms
+2026-10-27T09:50:35.371Z [info]: Server running on http://localhost:5000
+2026-10-27T10:26:49.537Z [info]: GET /api/category 200 - 107ms
+2026-10-27T10:26:49.628Z [info]: GET /api/product 200 - 471ms
+2026-10-27T19:59:34.306Z [info]: GET /api/product 200 - 250ms
+2026-10-27T19:59:47.131Z [info]: GET /api/category 200 - 70ms
+2026-10-27T19:59:47.188Z [info]: GET /api/product 200 - 129ms
+2026-10-30T06:44:22.829Z [info]: Server running on http://localhost:5000
+2026-10-30T06:44:46.092Z [info]: GET /api/category 200 - 1131ms
+2026-10-30T06:44:46.379Z [info]: GET /api/product 200 - 1587ms
+2026-10-30T07:13:18.663Z [info]: GET /api/category 200 - 107ms
+2026-10-30T07:13:18.744Z [info]: GET /api/product 200 - 190ms
+2026-10-30T07:19:26.749Z [info]: GET /api/category 200 - 78ms
+2026-10-30T07:19:26.804Z [info]: GET /api/product 200 - 134ms
+2026-10-30T07:27:35.481Z [info]: GET /api/category 200 - 117ms
+2026-10-30T07:27:35.658Z [info]: GET /api/product 200 - 296ms
+2026-10-30T07:27:38.108Z [info]: GET /api/category 200 - 6ms
+2026-10-30T07:27:38.114Z [info]: GET /api/product 200 - 13ms

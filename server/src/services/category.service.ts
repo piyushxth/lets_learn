@@ -1,6 +1,6 @@
 import { AppError } from "../errors/AppError.js";
 import prisma from "../lib/prisma.js";
-import { categorySchema } from "../schemas/category.schema.js";
+import { CategorySchema } from "../schemas/category.schema.js";
 
 export async function getCategory() {
   return await prisma.category.findMany({
@@ -25,7 +25,7 @@ export async function getCategoryById(id: number) {
   return category;
 }
 
-export async function createCategory(data: categorySchema) {
+export async function createCategory(data: CategorySchema) {
   return await prisma.category.create({ data });
 }
 

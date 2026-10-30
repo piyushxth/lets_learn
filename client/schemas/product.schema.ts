@@ -12,11 +12,7 @@ const variantSchema = z.object({
 
   sku: z.string().min(1, "SKU is required").trim(),
 
-  price: z
-    .number({
-      message: "Price is required",
-    })
-    .min(1, "Price cannot be negative"),
+  price: z.number().positive("Price must be greater than 0"),
 
   stock: z
     .number()

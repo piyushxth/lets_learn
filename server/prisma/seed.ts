@@ -85,18 +85,33 @@ async function main() {
   const tshirtCategory = await prisma.category.create({
     data: {
       name: "T-Shirts",
+      slug: "t-shirts",
+      description: "Explore our collection of comfortable, stylish T-shirts.",
+      image_url:
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80",
+      is_active: true,
     },
   });
 
   const hoodieCategory = await prisma.category.create({
     data: {
       name: "Hoodies",
+      slug: "hoodies",
+      description: "Discover comfortable hoodies for everyday wear.",
+      image_url:
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=800&q=80",
+      is_active: true,
     },
   });
 
   const pantsCategory = await prisma.category.create({
     data: {
       name: "Pants",
+      slug: "pants",
+      description: "Shop versatile pants for casual and everyday outfits.",
+      image_url:
+        "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=800&q=80",
+      is_active: true,
     },
   });
 

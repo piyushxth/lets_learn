@@ -1,7 +1,7 @@
 "use client";
 
 import { useAxios } from "@/app/lib/axios";
-import { Category } from "@/app/types/product";
+import { Category } from "@/app/types/category";
 import {
   CreateCategoryFormData,
   createCategorySchema,
@@ -14,6 +14,8 @@ import { toast } from "sonner";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 import { Input } from "../ui/input";
 import { Button } from "../ui/button";
+import { Textarea } from "../ui/textarea";
+import { Switch } from "../ui/switch";
 
 interface CategoryFormProps {
   mode: "create" | "edit";
@@ -27,6 +29,10 @@ const CategoryForm = ({ mode, initialData }: CategoryFormProps) => {
     resolver: zodResolver(createCategorySchema),
     defaultValues: {
       name: "",
+      slug: "",
+      description: "",
+      image_url: "",
+      is_active: true,
     },
   });
 
@@ -34,39 +40,58 @@ const CategoryForm = ({ mode, initialData }: CategoryFormProps) => {
     register,
     handleSubmit,
     reset,
+    watch,
+    setValue,
     formState: { errors, isSubmitting },
   } = form;
 
-  // ---------------------------------------------
-  // Load existing category when editing
-  // ---------------------------------------------
+  const name = watch("name");
 
+  // Generate a URL-friendly slug from the category name.
+  useEffect(() => {
+    const slug = name
+      .trim()
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "");
+
+    setValue("slug", slug, { shouldValidate: true });
+  }, [name, setValue]);
+
+  // Load existing category when editing.
   useEffect(() => {
     if (mode === "edit" && initialData) {
       reset({
         name: initialData.name,
+        slug: initialData.slug,
+        description: initialData.description ?? "",
+        image_url: initialData.image_url ?? "",
+        is_active: initialData.is_active,
       });
     }
   }, [mode, initialData, reset]);
 
-  // ---------------------------------------------
-  // Submit
-  // ---------------------------------------------
-
   const onSubmit = async (data: CreateCategoryFormData) => {
     try {
-      // CREATE
+      const payload = {
+        ...data,
+        description: data.description || null,
+        image_url: data.image_url || null,
+      };
+
       if (mode === "create") {
-        const response = await axios.post("/category", data);
+        const response = await axios.post("/category", payload);
 
         console.log("Category created:", response.data);
 
-        // Reset form
         reset({
           name: "",
+          slug: "",
+          description: "",
+          image_url: "",
+          is_active: true,
         });
 
-        // Success message
         toast.success("Category created successfully", {
           description: `"${data.name}" has been added to your categories.`,
         });
@@ -74,20 +99,22 @@ const CategoryForm = ({ mode, initialData }: CategoryFormProps) => {
         return;
       }
 
-      // UPDATE
       if (!initialData) {
         toast.error("Category data is missing.");
         return;
       }
 
-      const response = await axios.patch(`/category/${initialData.id}`, data);
+      const response = await axios.patch(
+        `/category/${initialData.id}`,
+        payload,
+      );
 
       console.log("Category updated:", response.data);
 
       toast.success("Category updated successfully", {
         description: `"${data.name}" has been updated.`,
       });
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error(
         mode === "create"
           ? "Failed to create category:"
@@ -96,13 +123,20 @@ const CategoryForm = ({ mode, initialData }: CategoryFormProps) => {
       );
 
       const message =
-        error.response?.data?.message ||
-        (mode === "create"
-          ? "Failed to create category."
-          : "Failed to update category.");
+        typeof error === "object" && error !== null && "response" in error
+          ? (
+              error as {
+                response?: { data?: { message?: string } };
+              }
+            ).response?.data?.message
+          : undefined;
 
       toast.error("Something went wrong", {
-        description: message,
+        description:
+          message ||
+          (mode === "create"
+            ? "Failed to create category."
+            : "Failed to update category."),
       });
     }
   };
@@ -115,7 +149,9 @@ const CategoryForm = ({ mode, initialData }: CategoryFormProps) => {
         </h1>
 
         <p className="text-sm text-muted-foreground">
-          {mode === "edit" ? "Update the category." : "Create a new category."}
+          {mode === "edit"
+            ? "Update the category details."
+            : "Create a new product category."}
         </p>
       </div>
 
@@ -126,16 +162,95 @@ const CategoryForm = ({ mode, initialData }: CategoryFormProps) => {
           </CardHeader>
 
           <CardContent className="space-y-6">
+            {/* Category name */}
             <div>
-              <label className="text-sm font-medium">Category Name</label>
+              <label className="mb-1 block text-sm font-medium">
+                Category Name
+              </label>
 
-              <Input {...register("name")} placeholder="Pants, T-Shirt..." />
+              <Input {...register("name")} placeholder="Pants, T-Shirts..." />
 
               {errors.name && (
                 <p className="mt-1 text-sm text-destructive">
                   {errors.name.message}
                 </p>
               )}
+            </div>
+
+            {/* Slug */}
+            <div>
+              <label className="mb-1 block text-sm font-medium">
+                Category Slug
+              </label>
+
+              <Input {...register("slug")} placeholder="t-shirts" />
+
+              <p className="mt-1 text-xs text-muted-foreground">
+                Generated automatically from the category name. You can edit it.
+              </p>
+
+              {errors.slug && (
+                <p className="mt-1 text-sm text-destructive">
+                  {errors.slug.message}
+                </p>
+              )}
+            </div>
+
+            {/* Description */}
+            <div>
+              <label className="mb-1 block text-sm font-medium">
+                Description
+              </label>
+
+              <Textarea
+                {...register("description")}
+                placeholder="Describe this category..."
+                rows={4}
+              />
+
+              {errors.description && (
+                <p className="mt-1 text-sm text-destructive">
+                  {errors.description.message}
+                </p>
+              )}
+            </div>
+
+            {/* Image URL */}
+            <div>
+              <label className="mb-1 block text-sm font-medium">
+                Category Image URL
+              </label>
+
+              <Input
+                {...register("image_url")}
+                placeholder="https://images.unsplash.com/..."
+              />
+
+              {errors.image_url && (
+                <p className="mt-1 text-sm text-destructive">
+                  {errors.image_url.message}
+                </p>
+              )}
+            </div>
+
+            {/* Active status */}
+            <div className="flex items-center justify-between rounded-lg border p-4">
+              <div>
+                <label className="text-sm font-medium">Active Category</label>
+                <p className="text-xs text-muted-foreground">
+                  Allow this category to appear in your storefront.
+                </p>
+              </div>
+
+              <Switch
+                checked={watch("is_active")}
+                onCheckedChange={(checked) =>
+                  setValue("is_active", checked, {
+                    shouldDirty: true,
+                    shouldValidate: true,
+                  })
+                }
+              />
             </div>
           </CardContent>
         </Card>

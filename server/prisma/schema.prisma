@@ -30,9 +30,15 @@ model User {
 }
 
 model Category {
-  id         Int       @id @default(autoincrement())
-  name       String    @unique
-  deleted_at DateTime?
+  id          Int       @id @default(autoincrement())
+  name        String    @unique
+  slug        String?   @unique
+  description String?   @db.Text
+  image_url   String?
+  is_active   Boolean   @default(true)
+  created_at  DateTime  @default(now())
+  updated_at  DateTime  @default(now()) @updatedAt
+  deleted_at  DateTime?
 
   products Product[]
 }

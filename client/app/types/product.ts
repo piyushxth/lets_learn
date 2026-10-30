@@ -1,8 +1,6 @@
-export interface Category {
-  id: number;
-  name: string;
-  deleted_at: string | null;
-}
+import { Category } from "./category";
+
+export type { Category } from "./category";
 
 export interface Color {
   id: number;
@@ -49,35 +47,7 @@ export interface Product {
   deleted_at: string | null;
   created_at: string;
   updated_at: string;
-
   category: Category;
   images: ProductImage[];
   variants: ProductVariant[];
 }
-
-// export interface CreateProductImage {
-//   url: string;
-//   alt_text?: string;
-//   position?: number;
-// }
-
-// export interface CreateProductVariant {
-//   color_id: number | null;
-//   size_id: number | null;
-//   sku: string;
-//   price: number;
-//   stock: number;
-
-//   images: CreateProductImage[];
-// }
-
-// export interface CreateProductPayload {
-//   name: string;
-//   slug: string;
-//   description?: string;
-//   category_id: number;
-
-//   images: CreateProductImage[];
-
-//   variants: CreateProductVariant[];
-// }

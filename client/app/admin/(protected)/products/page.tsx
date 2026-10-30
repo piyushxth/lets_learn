@@ -1,6 +1,7 @@
 import { Product } from "@/app/types/product";
 
 import ProductsTable from "@/components/client/ProductsTable";
+import Link from "next/link";
 
 const ProductsPage = async () => {
   const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/product`, {
@@ -15,12 +16,17 @@ const ProductsPage = async () => {
 
   return (
     <div className="p-6">
-      <div className="mb-6">
-        <h1 className="text-2xl font-semibold">Products</h1>
+      <div className="flex justify-between mb-6 ">
+        <div>
+          <h1 className="text-2xl font-semibold">Products</h1>
 
-        <p className="text-sm text-muted-foreground">
-          Manage your products and inventory.
-        </p>
+          <p className="text-sm text-muted-foreground">
+            Manage your products and inventory.
+          </p>
+        </div>
+        <div>
+          <Link href={"/admin/products/add"}>Add Product</Link>
+        </div>
       </div>
 
       <ProductsTable products={products} />

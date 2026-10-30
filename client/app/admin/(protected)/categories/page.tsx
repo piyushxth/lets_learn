@@ -1,4 +1,4 @@
-import { Category } from "@/app/types/product";
+import { Category } from "@/app/types/category";
 import {
   Table,
   TableBody,
@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Image from "next/image";
 
 const page = async () => {
   const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/category`, {
@@ -41,6 +42,7 @@ const page = async () => {
           <TableHeader>
             <TableRow>
               <TableHead>ID</TableHead>
+              <TableHead>Image</TableHead>
               <TableHead>Name</TableHead>
               <TableHead className="text-right">Actions</TableHead>
             </TableRow>
@@ -60,7 +62,21 @@ const page = async () => {
                     {/* Product Image */}
 
                     <TableCell>{category.id}</TableCell>
-
+                    <TableCell>
+                      {category.image_url ? (
+                        <Image
+                          src={category.image_url}
+                          alt={category.name}
+                          width={50}
+                          height={50}
+                          className="h-12 w-12 rounded-md object-cover"
+                        />
+                      ) : (
+                        <div className="flex h-12 w-12 items-center justify-center rounded-md bg-muted text-xs text-muted-foreground">
+                          No image
+                        </div>
+                      )}
+                    </TableCell>
                     <TableCell className="font-medium">
                       {category.name}
                     </TableCell>

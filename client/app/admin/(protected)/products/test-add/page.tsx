@@ -25,132 +25,132 @@ import {
 import { ProductForm } from "@/components/admin/ProductForm";
 
 export default function AddProductPage() {
-  const { axios } = useAxios();
+  // const { axios } = useAxios();
 
-  const [categories, setCategories] = useState<Category[]>([]);
-  const [colors, setColors] = useState<Color[]>([]);
-  const [sizes, setSizes] = useState<Size[]>([]);
-  useEffect(() => {
-    const fetchOptions = async () => {
-      try {
-        const [categoriesResponse, colorsResponse, sizesResponse] =
-          await Promise.all([
-            axios.get("/category"),
-            axios.get("/color"),
-            axios.get("/size"),
-          ]);
+  // const [categories, setCategories] = useState<Category[]>([]);
+  // const [colors, setColors] = useState<Color[]>([]);
+  // const [sizes, setSizes] = useState<Size[]>([]);
+  // useEffect(() => {
+  //   const fetchOptions = async () => {
+  //     try {
+  //       const [categoriesResponse, colorsResponse, sizesResponse] =
+  //         await Promise.all([
+  //           axios.get("/category"),
+  //           axios.get("/color"),
+  //           axios.get("/size"),
+  //         ]);
 
-        setCategories(categoriesResponse.data);
-        setColors(colorsResponse.data);
-        setSizes(sizesResponse.data);
-      } catch (error) {
-        console.error("Failed to fetch product options:", error);
-      }
-    };
+  //       setCategories(categoriesResponse.data);
+  //       setColors(colorsResponse.data);
+  //       setSizes(sizesResponse.data);
+  //     } catch (error) {
+  //       console.error("Failed to fetch product options:", error);
+  //     }
+  //   };
 
-    fetchOptions();
-  }, [axios]);
+  //   fetchOptions();
+  // }, [axios]);
 
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  // const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const form = useForm<CreateProductFormData>({
-    resolver: zodResolver(createProductSchema),
+  // const form = useForm<CreateProductFormData>({
+  //   resolver: zodResolver(createProductSchema),
 
-    defaultValues: {
-      name: "",
-      slug: "",
-      description: "",
-      category_id: 0,
+  //   defaultValues: {
+  //     name: "",
+  //     slug: "",
+  //     description: "",
+  //     category_id: 0,
 
-      images: [],
+  //     images: [],
 
-      variants: [
-        {
-          color_id: null,
-          size_id: null,
-          sku: "",
-          price: 0,
-          stock: 0,
-          images: [],
-        },
-      ],
-    },
-  });
+  //     variants: [
+  //       {
+  //         color_id: null,
+  //         size_id: null,
+  //         sku: "",
+  //         price: 0,
+  //         stock: 0,
+  //         images: [],
+  //       },
+  //     ],
+  //   },
+  // });
 
-  const {
-    register,
-    control,
-    handleSubmit,
-    formState: { errors },
-  } = form;
+  // const {
+  //   register,
+  //   control,
+  //   handleSubmit,
+  //   formState: { errors },
+  // } = form;
 
-  // -----------------------------
-  // Product images
-  // -----------------------------
+  // // -----------------------------
+  // // Product images
+  // // -----------------------------
 
-  const {
-    fields: imageFields,
-    append: appendImage,
-    remove: removeImage,
-  } = useFieldArray({
-    control,
-    name: "images",
-  });
+  // const {
+  //   fields: imageFields,
+  //   append: appendImage,
+  //   remove: removeImage,
+  // } = useFieldArray({
+  //   control,
+  //   name: "images",
+  // });
 
-  // -----------------------------
-  // Variants
-  // -----------------------------
+  // // -----------------------------
+  // // Variants
+  // // -----------------------------
 
-  const {
-    fields: variantFields,
-    append: appendVariant,
-    remove: removeVariant,
-  } = useFieldArray({
-    control,
-    name: "variants",
-  });
+  // const {
+  //   fields: variantFields,
+  //   append: appendVariant,
+  //   remove: removeVariant,
+  // } = useFieldArray({
+  //   control,
+  //   name: "variants",
+  // });
 
-  // -----------------------------
-  // Submit
-  // -----------------------------
+  // // -----------------------------
+  // // Submit
+  // // -----------------------------
 
-  const onSubmit = async (data: CreateProductFormData) => {
-    setIsSubmitting(true);
+  // const onSubmit = async (data: CreateProductFormData) => {
+  //   setIsSubmitting(true);
 
-    try {
-      const payload = {
-        ...data,
+  //   try {
+  //     const payload = {
+  //       ...data,
 
-        images: data.images.map((image, index) => ({
-          ...image,
-          position: index,
-        })),
+  //       images: data.images.map((image, index) => ({
+  //         ...image,
+  //         position: index,
+  //       })),
 
-        variants: data.variants.map((variant) => ({
-          ...variant,
+  //       variants: data.variants.map((variant) => ({
+  //         ...variant,
 
-          images: variant.images.map((image, index) => ({
-            ...image,
-            position: index,
-          })),
-        })),
-      };
+  //         images: variant.images.map((image, index) => ({
+  //           ...image,
+  //           position: index,
+  //         })),
+  //       })),
+  //     };
 
-      const response = await axios.post("/product", payload);
+  //     const response = await axios.post("/product", payload);
 
-      console.log("Product created:", response.data);
+  //     console.log("Product created:", response.data);
 
-      form.reset();
-    } catch (error) {
-      console.error("Failed to create product:", error);
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
+  //     form.reset();
+  //   } catch (error) {
+  //     console.error("Failed to create product:", error);
+  //   } finally {
+  //     setIsSubmitting(false);
+  //   }
+  // };
 
   return (
     <div>
-      <ProductForm mode="edit" />
+      <ProductForm mode="create" />
     </div>
   );
 }

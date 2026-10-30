@@ -177,10 +177,23 @@ export function ProductForm({ mode, initialData }: ProductFormProps) {
   const onSubmit = async (data: CreateProductFormData) => {
     try {
       if (mode === "create") {
+        console.log("generated data", data);
+        const productName = data.name;
         const response = await axios.post("/product", data);
         console.log("Product created:", response.data);
+
         toast.success("Product created successfully", {
-          description: `"${data.name}" has been added to your Products.`,
+          description: `"${productName}" has been added to your Products.`,
+        });
+
+        // Reset form to initial state after showing toast
+        reset({
+          name: "",
+          slug: "",
+          description: "",
+          category_id: 0,
+          images: [],
+          variants: [],
         });
 
         return;
@@ -201,12 +214,28 @@ export function ProductForm({ mode, initialData }: ProductFormProps) {
         description: `"${data.name}" has been updated.`,
       });
       console.log("Product updated:", response.data);
-    } catch (error) {
+    } catch (error: any) {
       console.error(
         mode === "create"
           ? "Failed to create product:"
           : "Failed to update product:",
         error,
+      );
+
+      const errorMessage =
+        error?.response?.data?.message || error?.message || "Unknown error";
+      const statusCode = error?.response?.status;
+
+      console.error("Status:", statusCode);
+      console.error("Error details:", error?.response?.data);
+
+      toast.error(
+        mode === "create"
+          ? "Failed to create product"
+          : "Failed to update product",
+        {
+          description: errorMessage,
+        },
       );
     }
   };
@@ -218,17 +247,9 @@ export function ProductForm({ mode, initialData }: ProductFormProps) {
   if (loadingOptions) {
     return <div className="p-6">Loading product form...</div>;
   }
-
-  // --------------------------------------------------
-  // UI
-  // --------------------------------------------------
-
   return (
     <div className="p-6">
-      {/* --------------------------------------------- */}
       {/* PAGE HEADER */}
-      {/* --------------------------------------------- */}
-
       <div className="mb-6">
         <h1 className="text-2xl font-semibold">
           {mode === "edit" ? "Edit Product" : "Add Product"}
@@ -241,14 +262,10 @@ export function ProductForm({ mode, initialData }: ProductFormProps) {
         </p>
       </div>
 
-      {/* --------------------------------------------- */}
       {/* FORM */}
-      {/* --------------------------------------------- */}
 
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
-        {/* =========================================== */}
         {/* BASIC PRODUCT INFORMATION */}
-        {/* =========================================== */}
 
         <Card>
           <CardHeader>
@@ -302,12 +319,19 @@ export function ProductForm({ mode, initialData }: ProductFormProps) {
             </div>
 
             {/* Category */}
-
             <div>
               <label className="text-sm font-medium">Category</label>
 
               <Select
-                value={watch("category_id") ? String(watch("category_id")) : ""}
+                items={categories.map((category) => ({
+                  value: String(category.id),
+                  label: category.name,
+                }))}
+                value={
+                  watch("category_id") > 0
+                    ? String(watch("category_id"))
+                    : undefined
+                }
                 onValueChange={(value) => {
                   setValue("category_id", Number(value), {
                     shouldValidate: true,
@@ -336,9 +360,7 @@ export function ProductForm({ mode, initialData }: ProductFormProps) {
           </CardContent>
         </Card>
 
-        {/* =========================================== */}
         {/* PRODUCT IMAGES */}
-        {/* =========================================== */}
 
         <Card>
           <CardHeader>
@@ -413,10 +435,14 @@ export function ProductForm({ mode, initialData }: ProductFormProps) {
                       <label className="text-sm font-medium">Color</label>
 
                       <Select
+                        items={colors.map((color) => ({
+                          value: String(color.id),
+                          label: color.name,
+                        }))}
                         value={
                           selectedColor !== null && selectedColor !== undefined
                             ? String(selectedColor)
-                            : ""
+                            : undefined
                         }
                         onValueChange={(value) => {
                           setValue(
@@ -448,10 +474,14 @@ export function ProductForm({ mode, initialData }: ProductFormProps) {
                       <label className="text-sm font-medium">Size</label>
 
                       <Select
+                        items={sizes.map((size) => ({
+                          value: String(size.id),
+                          label: size.name,
+                        }))}
                         value={
                           selectedSize !== null && selectedSize !== undefined
                             ? String(selectedSize)
-                            : ""
+                            : undefined
                         }
                         onValueChange={(value) => {
                           setValue(
@@ -500,12 +530,12 @@ export function ProductForm({ mode, initialData }: ProductFormProps) {
                       <label className="text-sm font-medium">Price</label>
 
                       <Input
-                        type="number"
-                        step="0.01"
-                        {...register(`variants.${index}.price`)}
+                        type="text"
+                        {...register(`variants.${index}.price`, {
+                          valueAsNumber: true,
+                        })}
                         placeholder="49.99"
                       />
-
                       {errors.variants?.[index]?.price && (
                         <p className="mt-1 text-sm text-destructive">
                           {errors.variants[index]?.price?.message}
@@ -575,7 +605,7 @@ export function ProductForm({ mode, initialData }: ProductFormProps) {
                               );
                             }}
                           >
-                            Remove
+                            Remove Image
                           </Button>
                         </div>
                       ),
@@ -645,7 +675,14 @@ export function ProductForm({ mode, initialData }: ProductFormProps) {
         {/* SUBMIT */}
         {/* =========================================== */}
 
-        <Button type="submit" disabled={isSubmitting}>
+        <Button
+          type="submit"
+          disabled={isSubmitting}
+          onClick={() => {
+            console.log("🔥 BUTTON CLICKED");
+            console.log("📦 VALUES:", form.getValues());
+          }}
+        >
           {isSubmitting
             ? mode === "edit"
               ? "Updating..."
